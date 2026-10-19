@@ -19,9 +19,12 @@ localized theme name. That action navigates; it does not submit a request.
 User-approved custom hostnames:
 law.islamnashaat.com, clinic.islamnashaat.com, folio.islamnashaat.com.
 These three names were initially provisioned on cPanel and their first static
-files uploaded before the user requested external hosting. DNS is being moved
-to GitHub Pages; those initial uploads are not the intended serving origin.
-Verify HTTPS before using the cards on the actual services website.
+files uploaded before the user requested external hosting. DNS now points to
+GitHub Pages. The initial shared-host copies were hash-checked and moved into
+a private backup, outside the web roots. Other hosted websites are unchanged.
+All nine public HTML routes were verified against release hashes using public
+DNS and returned Server: GitHub.com. HTTPS is still pending at GitHub; verify
+the certificates before using the cards on the actual services website.
 
 DNS instructions follow GitHub's official documentation:
 https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site

@@ -1,0 +1,65 @@
+[
+  {
+    "theme": "law-firm",
+    "url": "http://law.islamnashaat.com/",
+    "server": "GitHub.com",
+    "https": false,
+    "hashMatch": true
+  },
+  {
+    "theme": "law-firm",
+    "url": "http://law.islamnashaat.com/ar/",
+    "server": "GitHub.com",
+    "https": false,
+    "hashMatch": true
+  },
+  {
+    "theme": "law-firm",
+    "url": "http://law.islamnashaat.com/en/",
+    "server": "GitHub.com",
+    "https": false,
+    "hashMatch": true
+  },
+  {
+    "theme": "medical-clinic",
+    "url": "http://clinic.islamnashaat.com/",
+    "server": "GitHub.com",
+    "https": false,
+    "hashMatch": true
+  },
+  {
+    "theme": "medical-clinic",
+    "url": "http://clinic.islamnashaat.com/ar/",
+    "server": "GitHub.com",
+    "https": false,
+    "hashMatch": true
+  },
+  {
+    "theme": "medical-clinic",
+    "url": "http://clinic.islamnashaat.com/en/",
+    "server": "GitHub.com",
+    "https": false,
+    "hashMatch": true
+  },
+  {
+    "theme": "creative-portfolio",
+    "url": "http://folio.islamnashaat.com/",
+    "server": "GitHub.com",
+    "https": false,
+    "hashMatch": true
+  },
+  {
+    "theme": "creative-portfolio",
+    "url": "http://folio.islamnashaat.com/ar/",
+    "server": "GitHub.com",
+    "https": false,
+    "hashMatch": true
+  },
+  {
+    "theme": "creative-portfolio",
+    "url": "http://folio.islamnashaat.com/en/",
+    "server": "GitHub.com",
+    "https": false,
+    "hashMatch": true
+  }
+]

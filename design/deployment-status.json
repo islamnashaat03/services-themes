@@ -1,0 +1,12 @@
+{
+  "hosting": "GitHub Pages",
+  "source": "https://github.com/islamnashaat03/services-themes",
+  "builds": "all three succeeded",
+  "publicDns": "islamnashaat03.github.io",
+  "htmlHashChecks": "9 of 9 match over HTTP using public DNS",
+  "sharedHostCopies": "archived outside document roots",
+  "https": "pending GitHub certificate provisioning; not verified",
+  "readyForSecureSharing": false,
+  "servicesGalleryUpdated": false,
+  "mawqiAdapterInstalled": false
+}

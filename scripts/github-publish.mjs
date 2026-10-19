@@ -6,7 +6,8 @@ const credential=execFileSync('git',['credential','fill'],{input:'protocol=https
 const token=credential.split('\n').find(line=>line.startsWith('password='))?.slice(9);
 if(!token)throw Error('GitHub authentication unavailable');
 async function api(route,method='GET',body){
- const response=await fetch('https://api.github.com'+route,{method,headers:{Authorization:`Bearer ${token}`,Accept:'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28','Content-Type':'application/json'},body:body?JSON.stringify(body):undefined});
+ const fresh=method==='GET'?route+(route.includes('?')?'&':'?')+'_check='+Date.now():route;
+ const response=await fetch('https://api.github.com'+fresh,{method,headers:{Authorization:`Bearer ${token}`,Accept:'application/vnd.github+json','Cache-Control':'no-cache','X-GitHub-Api-Version':'2022-11-28','Content-Type':'application/json'},body:body?JSON.stringify(body):undefined});
  const result=response.status===204?{}:await response.json();
  if(!response.ok)throw Error(`${method} ${route}: ${response.status} ${result.message}`);
  return result;

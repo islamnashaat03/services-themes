@@ -1,0 +1,14 @@
+[
+  {
+    "theme": "law-firm",
+    "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+  },
+  {
+    "theme": "medical-clinic",
+    "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+  },
+  {
+    "theme": "creative-portfolio",
+    "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+  }
+]

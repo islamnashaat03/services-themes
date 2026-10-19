@@ -17,3 +17,11 @@ the references. Law and clinic preserve the existing library's design.
 
 These checks cover static demo interactions. Payments, real booking, email
 delivery and importing into Mawqi are future integrations.
+
+Publication: all three Pages builds completed successfully. Public DNS points
+the six bare/www showcase names to islamnashaat03.github.io. All nine HTML
+routes returned HTTP 200 from GitHub.com with matching SHA-256 hashes; see
+design/live-http-checks.json. Shared-host copies were moved outside web roots
+to a private backup after verifying their hashes. HTTPS is not yet verified:
+GitHub still reports DNS/certificate processing, and TLS requests currently
+fail hostname validation. No browser certificate warning was bypassed.
