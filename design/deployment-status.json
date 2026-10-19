@@ -1,5 +1,7 @@
 {
   "hosting": "GitHub Pages",
+  "clinicSecurePreview": "https://islamnashaat03.github.io/services-themes/",
+  "clinicPreviewVerified": "HTTP 200 over HTTPS for root, Arabic and English; matching HTML and available assets; desktop/mobile and language switching passed",
   "source": "https://github.com/islamnashaat03/services-themes",
   "builds": "all three succeeded",
   "publicDns": "islamnashaat03.github.io",

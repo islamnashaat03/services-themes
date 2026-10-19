@@ -35,7 +35,7 @@ if(process.argv.includes('--clinic-preview')){
  const route=`/repos/${user.login}/services-themes/pages`;
  let info;try{info=await api(route);}catch(e){if(!String(e).includes('404'))throw e;info=await api(route,'POST',{source:{branch:'main',path:'/docs'}});}
  if(info.cname)throw Error('Source repository already has an unexpected custom domain');
- await api(route,'PUT',{source:{branch:'main',path:'/docs'},https_enforced:true});
+ if(info.source?.path!=='/docs')await api(route,'PUT',{source:{branch:'main',path:'/docs'}});
  textStatus('clinic-secure-preview',await api(route));
  process.exit(0);
 }
