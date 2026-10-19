@@ -16,6 +16,23 @@ npm run preview
 
 ## النشر المستقل
 
+المصدر: https://github.com/islamnashaat03/services-themes
+
+النشر المعتمد GitHub Pages خارج الاستضافة المشتركة. مستودع المصدر واحد
+للصيانة وإعادة الاستخدام، وثلاثة مستودعات تحتوي ملفات النشر فقط:
+
+- showcase-law-firm → law.islamnashaat.com
+- showcase-medical-clinic → clinic.islamnashaat.com
+- showcase-creative-portfolio → folio.islamnashaat.com
+
+للتحديث شغّل build وtest ثم `node scripts/github-publish.mjs` باستخدام حساب
+GitHub المصرّح له عبر Git Credential Manager. لا توجد مفاتيح في المصدر.
+فحص الشهادات: `node scripts/github-publish.mjs --status`، وتفعيل HTTPS
+بعد إصدار الشهادة: `node scripts/github-publish.mjs --https`.
+
+تغيير DNS مرة واحدة إلى islamnashaat03.github.io. لا تكرر سكربت DNS دون
+مراجعة سجلات المنطقة والنسخة الاحتياطية. حجز الأسماء في GitHub يسبق الربط.
+
 ناتج كل ثيم داخل dist/<theme-id> هو الجذر الكامل لموقع مستقل. ارفعه إلى
 الصب دومين المخصص له؛ لا ترفع المجلد الأب أو السورس أو node_modules.
 حدّث theme-origins.json بالرابط الفعلي ثم أعد البناء لإنتاج canonical/hreflang.

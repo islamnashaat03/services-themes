@@ -21,18 +21,24 @@ async function save(){await writeFile(statePath,JSON.stringify(state,null,2)+'\n
 function git(dir,...args){return execFileSync('git',['-C',dir,...args],{encoding:'utf8',stdio:['pipe','pipe','pipe']}).trim();}
 async function repo(name){
  if(state.repositories[name])return state.repositories[name];
- const created=await api('/user/repos','POST',{name,private:false,description:'Arabic-first bilingual showcase themes by Islam Nashaat'});
+ let created;
+ try{created=await api(`/repos/${user.login}/${name}`);}
+ catch(e){if(!String(e).includes('404'))throw e;created=await api('/user/repos','POST',{name,private:false,description:'Arabic-first bilingual showcase themes by Islam Nashaat'});}
  state.repositories[name]={url:created.html_url,clone:created.clone_url};await save();return state.repositories[name];
 }
 if(process.argv.includes('--status')){
- for(const theme of catalogue){const name='showcase-'+theme.id;const p=await api(`/repos/${user.login}/${name}/pages`);textStatus(name,p);}
+ for(const theme of catalogue){const name='showcase-'+theme.id;const p=await api(`/repos/${user.login}/${name}/pages`);textStatus(name,p);const health=await api(`/repos/${user.login}/${name}/pages/health`);const runs=await api(`/repos/${user.login}/${name}/actions/runs?per_page=1`);console.log(JSON.stringify({name,dnsHealth:health,build:runs.workflow_runs?.map(r=>({status:r.status,conclusion:r.conclusion,url:r.html_url}))}));}
+ process.exit(0);
+}
+if(process.argv.includes('--recheck-domains')){
+ for(const theme of catalogue){const route=`/repos/${user.login}/showcase-${theme.id}/pages`;await api(route,'PUT',{cname:null});await api(route,'PUT',{cname:new URL(theme.url).hostname});console.log('Rechecked '+theme.url);}
  process.exit(0);
 }
 if(process.argv.includes('--https')){
  for(const theme of catalogue){const name='showcase-'+theme.id;const p=await api(`/repos/${user.login}/${name}/pages`);if(p.https_certificate?.state==='approved')await api(`/repos/${user.login}/${name}/pages`,'PUT',{https_enforced:true});textStatus(name,await api(`/repos/${user.login}/${name}/pages`));}
  process.exit(0);
 }
-function textStatus(name,p){console.log(JSON.stringify({name,status:p.status,url:p.html_url,cname:p.cname,certificate:p.https_certificate?.state,https:p.https_enforced}));}
+function textStatus(name,p){console.log(JSON.stringify({name,status:p.status,url:p.html_url,cname:p.cname,certificate:p.https_certificate,https:p.https_enforced}));}
 const source=await repo('services-themes');
 try{await readFile('.git/HEAD');}catch{git(root,'init','-b','main');git(root,'remote','add','origin',source.clone);}
 git(root,'add','.');
