@@ -1,0 +1,92 @@
+[
+  {
+    "id": "law-firm",
+    "title": {
+      "ar": "كالدر ورو — محاماة",
+      "en": "Calder & Rowe — Law firm"
+    },
+    "category": {
+      "ar": "مكتب محاماة",
+      "en": "Law firm"
+    },
+    "type": "showcase",
+    "clientProject": false,
+    "disclosure": {
+      "ar": "مشروع استعراضي من تصميم وتنفيذ إسلام نشأت",
+      "en": "Showcase project designed and built by Islam Nashaat"
+    },
+    "preview": "design/preview-law-firm.png",
+    "mobilePreview": "design/preview-law-firm-mobile.png",
+    "intendedOrigin": "https://law.islamnashaat.com",
+    "liveUrl": null,
+    "publishStatus": "awaiting-https-verification",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "defaultLanguage": "ar",
+    "templateVersion": "1.0.0",
+    "package": "releases/law-firm.zip",
+    "mawqiStatus": "adapter-required"
+  },
+  {
+    "id": "medical-clinic",
+    "title": {
+      "ar": "كليرويل — عيادة طبية",
+      "en": "Clearwell Clinic"
+    },
+    "category": {
+      "ar": "عيادة طبية",
+      "en": "Medical clinic"
+    },
+    "type": "showcase",
+    "clientProject": false,
+    "disclosure": {
+      "ar": "مشروع استعراضي من تصميم وتنفيذ إسلام نشأت",
+      "en": "Showcase project designed and built by Islam Nashaat"
+    },
+    "preview": "design/preview-medical-clinic.png",
+    "mobilePreview": "design/preview-medical-clinic-mobile.png",
+    "intendedOrigin": "https://clinic.islamnashaat.com",
+    "liveUrl": null,
+    "publishStatus": "awaiting-https-verification",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "defaultLanguage": "ar",
+    "templateVersion": "1.0.0",
+    "package": "releases/medical-clinic.zip",
+    "mawqiStatus": "adapter-required"
+  },
+  {
+    "id": "creative-portfolio",
+    "title": {
+      "ar": "ليان مراد — بورتفوليو",
+      "en": "Layan Murad — Portfolio"
+    },
+    "category": {
+      "ar": "بورتفوليو إبداعي",
+      "en": "Creative portfolio"
+    },
+    "type": "showcase",
+    "clientProject": false,
+    "disclosure": {
+      "ar": "مشروع استعراضي من تصميم وتنفيذ إسلام نشأت",
+      "en": "Showcase project designed and built by Islam Nashaat"
+    },
+    "preview": "design/preview-creative-portfolio.png",
+    "mobilePreview": "design/preview-creative-portfolio-mobile.png",
+    "intendedOrigin": "https://folio.islamnashaat.com",
+    "liveUrl": null,
+    "publishStatus": "awaiting-https-verification",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "defaultLanguage": "ar",
+    "templateVersion": "1.0.0",
+    "package": "releases/creative-portfolio.zip",
+    "mawqiStatus": "adapter-required"
+  }
+]

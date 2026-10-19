@@ -1,0 +1,40 @@
+{
+  "created": "2026-10-15",
+  "disclosure": "Fictional clinic. Reception and room are AI-generated standalone photography. Stock portrait subjects are illustrative and are not the named fictional clinicians. No endorsement or professional credential is implied.",
+  "assets": [
+    {
+      "file": "reception.webp",
+      "source": "OpenAI ImageGen",
+      "sourceAsset": "exec-03de2115-b199-4d9c-b1d5-c1b56b6f5493.png",
+      "use": "Standalone reception photograph, never a screenshot crop",
+      "prompt": "Use case: photorealistic-natural. Create one standalone high-end editorial photograph for a fictional primary care clinic website, not a screenshot, no website UI. Wide landscape 3:2 composition. A bright welcoming contemporary primary care clinic reception: natural light from tall windows on right, curved light oak and white reception counter across center, plants, pale walls, teal accents, woman receptionist in teal scrubs calmly greeting adult woman patient in neutral everyday clothing seen from rear three-quarter view. Waiting chairs in right background. Natural candid professional healthcare photography, realistic warm daylight, excellent texture, credible accessible medical environment. Clear visual scene, generous open wall/air left, subject activity central-right. No visible logos, text, signs, watermarks, badges, dental chairs, surgery equipment or claims. Photograph only, no framing or typography.",
+      "processing": "Resized to 1536px wide without enlargement, WebP quality 82"
+    },
+    {
+      "file": "consultation-room.webp",
+      "source": "OpenAI ImageGen",
+      "sourceAsset": "exec-c877e8f9-c9fc-453d-ba36-60e104ea2324.png",
+      "use": "Standalone consultation-room photograph, never a screenshot crop",
+      "prompt": "Use case: photorealistic-natural. One standalone wide landscape architectural interior photograph of a calm contemporary primary care consultation room, not a website or UI. Bright natural daylight, white walls, pale oak cabinet, teal upholstered examination couch with clean white paper, one clinician desk with computer monitor turned away, two simple guest chairs, one small plant, discreet handwashing sink. Credible accessible family medical clinic, tasteful restrained interior, realistic professional interior photography, generous uncluttered floor space. No people, no dental chair, no operating theatre, no text, logos or branding. Palette white, warm oak and quiet teal. 3:2 wide composition.",
+      "processing": "Resized to 1200px wide, WebP quality 82"
+    },
+    {
+      "file": "doctor-anna.webp",
+      "source": "Unsplash",
+      "sourceUrl": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1600&q=82",
+      "license": "https://unsplash.com/license",
+      "use": "Illustrative fictional clinician portrait; no claim about the real subject",
+      "verified": "Downloaded successfully and visually inspected 2026-10-15",
+      "processing": "Resized to 700px wide, WebP quality 82"
+    },
+    {
+      "file": "doctor-omar.webp",
+      "source": "Unsplash",
+      "sourceUrl": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=1600&q=82",
+      "license": "https://unsplash.com/license",
+      "use": "Illustrative fictional clinician portrait; no claim about the real subject",
+      "verified": "Downloaded successfully and visually inspected 2026-10-15",
+      "processing": "Resized to 700px wide, WebP quality 82"
+    }
+  ]
+}

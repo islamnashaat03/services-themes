@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.build/
+.qa/
+releases/
+.deploy/
+*.local
+.env*
+!.env.example

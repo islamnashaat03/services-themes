@@ -1,0 +1,55 @@
+[
+  {
+    "file": "velora.webp",
+    "source": "C:\\Users\\Q\\.codex\\generated_images\\01a13f93-d03d-7a20-a64d-c2eefc7f7110\\exec-7c5db043-d25c-4e45-8827-978118d02a64.png",
+    "provider": "OpenAI built-in image generation",
+    "usage": "Standalone fictional campaign artwork, not a webpage screenshot. Fictional client project; no results claimed.",
+    "dimensions": [
+      1600,
+      900
+    ],
+    "variants": [
+      {
+        "file": "velora-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "file": "velora-960.webp",
+        "width": 960,
+        "height": 540
+      }
+    ],
+    "prompt": "Use case: ads-marketing. Standalone very wide 16:9 high-end wellness campaign photograph. A vivid sky blue urban bus side wrapped in a creative fitness advertisement with a close photographic portrait of a confident athletic woman with dark windblown hair against the blue. Big beautiful off-white brush script reads 'Movement for a brighter you.' A refined white serif brand 'Velora' at the lower right. The bus fills most of the frame, outdoors in soft afternoon sunshine. Premium approachable activewear advertising art direction. No interface, no website, no browser chrome, no watermark."
+  },
+  {
+    "file": "nora.webp",
+    "source": "C:\\Users\\Q\\.codex\\generated_images\\01a13f93-d03d-7a20-a64d-c2eefc7f7110\\exec-f547717d-f64e-45f1-94ca-d0de4df30632.png",
+    "provider": "OpenAI built-in image generation",
+    "usage": "Standalone fictional campaign artwork, not a webpage screenshot. Fictional client project; no results claimed.",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "variants": [
+      {
+        "file": "nora-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "file": "nora-960.webp",
+        "width": 960,
+        "height": 640
+      }
+    ],
+    "prompt": "Use case: product-mockup. Standalone wide 3:2 premium editorial brand campaign product photography for fictional botanical skincare brand 'NORA'. A matte olive green cylindrical bottle and off-white carton arranged on dark forest green stone with lush real botanical leaves entering the sides. Elegant charcoal sans-serif package lettering 'NORA' and on bottle 'A CALMER BRIGHTER YOU'. Tactile paper, side light, natural shadows, sophisticated product launch campaign. Photorealistic still life, not a website, no UI, no browser, no watermark."
+  },
+  {
+    "file": "fieldday.webp",
+    "provider": "OpenAI built-in image_gen",
+    "source": "generated_images/01a14eae-6fe2-7890-af76-e140727eb1cb/exec-59707a95-1611-4e8c-a852-213724f5b9b0.png",
+    "usage": "Fictional portfolio concept project; not client work",
+    "prompt": "Photorealistic fictional designer portfolio project photograph. Two framed outdoor Fieldday food campaign posters on a sunlit stone wall. Cream and orange carrot poster, pink and evergreen artichoke poster, Arabic headlines. No interface, people or watermark."
+  }
+]

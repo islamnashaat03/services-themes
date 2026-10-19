@@ -1,0 +1,78 @@
+export const clinicContent = {
+  en: {
+    brand: 'Clearwell Clinic', tagline: 'Primary care for every day', nav: ['Our services', 'Your visit', 'Our people', 'Find us'], menu: 'Open navigation', close: 'Close navigation', cta: 'Request an appointment',
+    hero: { title: 'Care that fits into your day.', text: 'Primary care for families and working adults. Convenient appointments, a welcoming team and practical support for your everyday health.', alt: 'A welcoming clinic reception with a receptionist speaking to a patient' },
+    form: { title: 'Request an appointment', service: 'Service', serviceHint: 'Select a service', day: 'Preferred day', name: 'Name', email: 'Email', nameHint: 'Your name', emailHint: 'Your email', submit: 'Prepare appointment request', note: 'Interactive demo. Do not enter medical information. Nothing is sent.', success: 'Demo appointment request prepared; nothing was sent. No appointment has been booked.', dateError: 'Choose today or a future date.', type: 'Appointment type', change: 'Change appointment type', summary: 'Selected appointment', reset: 'Prepare another request' },
+    services: { title: 'Everyday care for a healthier tomorrow.', text: 'From routine check-ups to ongoing support, explore care designed around you and your family.', select: 'Choose this service', items: [
+      { id: 'general', title: 'General health care', text: 'Check-ups, common illnesses and support for everyday health.', icon: 'stethoscope' },
+      { id: 'men', title: 'Men’s health', text: 'A space to discuss health questions, checks and wellbeing.', icon: 'person' },
+      { id: 'preventive', title: 'Preventive care', text: 'Conversations about screening, vaccinations and healthy habits.', icon: 'shield' },
+      { id: 'women', title: 'Women’s health', text: 'Preventive care and support through different stages of life.', icon: 'person' },
+      { id: 'family', title: 'Children and family care', text: 'A welcoming place for the health needs of your whole family.', icon: 'family' },
+      { id: 'ongoing', title: 'Ongoing condition support', text: 'Practical conversations about managing your ongoing care.', icon: 'heart' },
+    ] },
+    types: { title: 'Choosing the right appointment.', text: 'Not sure which format to choose? Here is a simple guide to the example appointments in this demo.', location: 'Format', selected: 'Selected', items: [
+      { id: 'standard', title: 'Standard appointment', text: 'For a single health concern, a routine check-up or an initial conversation.', duration: '15–20 minutes', location: 'In person at the clinic', cta: 'Choose standard', icon: 'calendar' },
+      { id: 'longer', title: 'Longer appointment', text: 'More time to talk through several questions or plan ongoing support.', duration: '30 minutes', location: 'In person at the clinic', cta: 'Choose longer', icon: 'clock' },
+      { id: 'phone', title: 'Phone consultation', text: 'An example format for a simple question or a follow-up conversation.', duration: '10–15 minutes', location: 'By phone', cta: 'Choose phone', icon: 'phone' },
+    ] },
+    people: { title: 'A team that puts people first.', text: 'A calm conversation. Time to listen. Practical next steps. Meet the illustrative team behind this demo clinic.', note: 'Fictional profiles, illustrated with stock photography.', items: [
+      { name: 'Anna Wells', role: 'General and preventive care', image: 'doctor-anna.webp', caption: 'A calm and supportive approach to everyday care.' },
+      { name: 'Omar Reid', role: 'Family and ongoing care', image: 'doctor-omar.webp', caption: 'Here to listen, explain and help you plan your next step.' },
+    ] },
+    visit: { title: 'What to expect at your visit.', text: 'A simple, considered experience, from your first hello to the next step.', steps: [
+      { title: 'Check in', text: 'Let our reception team know you have arrived.', icon: 'clipboard' },
+      { title: 'Meet your clinician', text: 'Talk through your questions in a comfortable setting.', icon: 'person' },
+      { title: 'Agree a plan', text: 'Discuss the next steps and the information you need.', icon: 'clipboard' },
+      { title: 'Ongoing support', text: 'Understand when and how to arrange follow-up care.', icon: 'heart' },
+    ] },
+    space: { title: 'A space that welcomes you.', text: 'Bright, considered spaces with room to settle in. This imagined clinic brings together a calm reception and private consultation rooms.', more: 'Plan your visit', receptionAlt: 'Light-filled reception with oak finishes, plants and teal seating', roomAlt: 'Bright consultation room with an examination couch and a desk', captions: ['A friendly first hello', 'Room for a calm conversation'] },
+    location: { title: 'Visit us.', text: 'Explore an example of the practical information patients need before setting off.', address: '123 Wellness Road, Riverview', addressNote: 'Illustrative address, not a real clinic', hours: [{day:'Monday–Friday',time:'8:00 am–6:00 pm'},{day:'Saturday',time:'8:00 am–12:00 pm'},{day:'Sunday',time:'Closed'}], hoursNote: 'Sample opening hours', access: ['Step-free entrance in this sample design', 'Space for accessibility and travel information'], mapLabel: 'Illustrative location diagram', mapClinic: 'Demo clinic', mapPark: 'Riverside park', mapRoad: 'Wellness Road', mapRiver: 'Riverview', mapNote: 'Illustrative area diagram. Not for navigation.' },
+    faq: { title: 'Frequently asked questions.', text: 'Quick answers about appointments, preparation and this demonstration.', items: [
+      { title: 'How do I request an appointment?', content: 'Choose a service and an appointment type, then try the form at the top of this page. It prepares a demonstration request locally; nothing is sent and no real appointment is booked.' },
+      { title: 'What should I bring to an appointment?', content: 'A real clinic would explain what to bring when confirming your appointment. This sample page does not provide clinical instructions or personalised medical advice.' },
+      { title: 'Can I choose a family appointment?', content: 'Select “Children and family care” in the service field to see how a family-focused enquiry works. A real clinic would confirm the appropriate appointment and any requirements.' },
+      { title: 'Are phone appointments available?', content: 'The phone format is included to demonstrate appointment selection. It does not indicate real availability, clinical suitability or an actual service offering.' },
+      { title: 'Can I change or cancel a request?', content: 'There is no real booking in this demonstration. You can change the selected service or prepare another sample request. No information is stored after you leave the page.' },
+    ] },
+    closeTitle: 'Care for today. A healthier tomorrow.', closeText: 'Here for the conversations that help you move forward.', footer: 'Fictional clinic. Homepage demo. Not medical advice.',
+  },
+  ar: {
+    brand: 'عيادة كليرويل', tagline: 'رعاية أولية لكل يوم', nav: ['خدماتنا', 'زيارتك', 'فريقنا', 'موقعنا'], menu: 'فتح قائمة التصفح', close: 'إغلاق قائمة التصفح', cta: 'طلب موعد',
+    hero: { title: 'رعاية تناسب تفاصيل يومك.', text: 'رعاية أولية للعائلات والبالغين، بمواعيد مرنة وفريق يرحب بك ودعم عملي لصحتك اليومية.', alt: 'استقبال عيادة مريح تتحدث فيه موظفة الاستقبال مع إحدى المراجعات' },
+    form: { title: 'طلب موعد', service: 'الخدمة', serviceHint: 'اختر الخدمة', day: 'اليوم المفضل', name: 'الاسم', email: 'البريد الإلكتروني', nameHint: 'اسمك', emailHint: 'بريدك الإلكتروني', submit: 'تجهيز طلب الموعد', note: 'عرض تفاعلي تجريبي. لا تكتب معلومات طبية. لن يُرسل أي شيء.', success: 'تم تجهيز طلب الموعد التجريبي؛ لم تُرسل أي معلومات ولم يُحجز أي موعد.', dateError: 'اختر اليوم أو تاريخًا قادمًا.', type: 'نوع الموعد', change: 'تغيير نوع الموعد', summary: 'الموعد المختار', reset: 'تجهيز طلب آخر' },
+    services: { title: 'رعاية يومية لغدٍ أكثر صحة.', text: 'من الفحوصات الدورية إلى المتابعة المستمرة، استكشف رعاية تتمحور حولك وحول عائلتك.', select: 'اختيار هذه الخدمة', items: [
+      { id: 'general', title: 'الرعاية الصحية العامة', text: 'فحوصات ومشكلات صحية شائعة ودعم للصحة اليومية.', icon: 'stethoscope' },
+      { id: 'men', title: 'صحة الرجل', text: 'مساحة لمناقشة أسئلة الصحة والفحوصات والعافية.', icon: 'person' },
+      { id: 'preventive', title: 'الرعاية الوقائية', text: 'حوارات حول الفحص المبكر والتطعيمات والعادات الصحية.', icon: 'shield' },
+      { id: 'women', title: 'صحة المرأة', text: 'رعاية وقائية ودعم خلال مراحل الحياة المختلفة.', icon: 'person' },
+      { id: 'family', title: 'رعاية الأطفال والأسرة', text: 'مكان يرحب بالاحتياجات الصحية لكل أفراد عائلتك.', icon: 'family' },
+      { id: 'ongoing', title: 'متابعة الحالات المستمرة', text: 'حوارات عملية حول تنظيم الرعاية والمتابعة المستمرة.', icon: 'heart' },
+    ] },
+    types: { title: 'اختر الموعد المناسب لك.', text: 'لست متأكدًا من النوع المناسب؟ إليك دليلًا مبسطًا للمواعيد التوضيحية في هذا النموذج.', location: 'الصيغة', selected: 'تم الاختيار', items: [
+      { id: 'standard', title: 'موعد اعتيادي', text: 'لمناقشة موضوع صحي واحد أو فحص دوري أو حوار أول.', duration: '١٥–٢٠ دقيقة', location: 'داخل العيادة', cta: 'اختيار الاعتيادي', icon: 'calendar' },
+      { id: 'longer', title: 'موعد مطوّل', text: 'وقت إضافي لمناقشة عدة أسئلة أو التخطيط للمتابعة.', duration: '٣٠ دقيقة', location: 'داخل العيادة', cta: 'اختيار المطوّل', icon: 'clock' },
+      { id: 'phone', title: 'استشارة هاتفية', text: 'صيغة توضيحية لسؤال بسيط أو حوار متابعة.', duration: '١٠–١٥ دقيقة', location: 'عبر الهاتف', cta: 'اختيار الهاتفي', icon: 'phone' },
+    ] },
+    people: { title: 'فريق يضع الإنسان أولًا.', text: 'حوار هادئ ووقت للاستماع وخطوات عملية. تعرّف إلى الفريق التوضيحي لهذا النموذج.', note: 'ملفات خيالية موضّحة بصور مرخّصة.', items: [
+      { name: 'آنا ويلز', role: 'الرعاية العامة والوقائية', image: 'doctor-anna.webp', caption: 'نهج هادئ وداعم للرعاية اليومية.' },
+      { name: 'عمر ريد', role: 'رعاية الأسرة والمتابعة', image: 'doctor-omar.webp', caption: 'للاستماع والتوضيح والتخطيط لخطوتك التالية.' },
+    ] },
+    visit: { title: 'ماذا تتوقع خلال زيارتك؟', text: 'تجربة بسيطة ومدروسة، من الترحيب الأول إلى الخطوة التالية.', steps: [
+      { title: 'تسجيل الوصول', text: 'أبلغ فريق الاستقبال بوصولك.', icon: 'clipboard' },
+      { title: 'لقاء المختص', text: 'ناقش أسئلتك في أجواء مريحة.', icon: 'person' },
+      { title: 'الاتفاق على خطة', text: 'تعرّف إلى الخطوات التالية والمعلومات التي تحتاجها.', icon: 'clipboard' },
+      { title: 'الدعم المستمر', text: 'افهم متى وكيف ترتّب لرعاية المتابعة.', icon: 'heart' },
+    ] },
+    space: { title: 'مساحة ترحّب بك.', text: 'مساحات مضيئة ومدروسة تمنحك فرصة للهدوء. تجمع هذه العيادة المتخيّلة بين استقبال مريح وغرف استشارة خاصة.', more: 'خطط لزيارتك', receptionAlt: 'استقبال مضيء بتفاصيل خشبية ونباتات ومقاعد بلون أخضر هادئ', roomAlt: 'غرفة استشارة مضيئة بها سرير فحص ومكتب', captions: ['ترحيب ودي من اللحظة الأولى', 'مساحة لحوار هادئ'] },
+    location: { title: 'زرنا.', text: 'مثال للمعلومات العملية التي يحتاجها المراجع قبل الزيارة.', address: '١٢٣ طريق العافية، ريفرفيو', addressNote: 'عنوان توضيحي، وليس عيادة فعلية', hours: [{day:'الاثنين–الجمعة',time:'٨ صباحًا–٦ مساءً'},{day:'السبت',time:'٨ صباحًا–١٢ ظهرًا'},{day:'الأحد',time:'مغلق'}], hoursNote: 'ساعات عمل توضيحية', access: ['مدخل دون درجات في هذا التصميم النموذجي', 'مساحة لمعلومات الوصول والتنقل'], mapLabel: 'رسم تخطيطي لموقع توضيحي', mapClinic: 'العيادة التجريبية', mapPark: 'حديقة النهر', mapRoad: 'طريق العافية', mapRiver: 'ريفرفيو', mapNote: 'رسم توضيحي للمنطقة، وليس للملاحة.' },
+    faq: { title: 'أسئلة شائعة.', text: 'إجابات سريعة حول المواعيد والاستعداد للزيارة وهذا النموذج.', items: [
+      { title: 'كيف أطلب موعدًا؟', content: 'اختر خدمة ونوع موعد ثم جرّب النموذج أعلى الصفحة. سيُجهَّز طلب تجريبي محليًا؛ لن تُرسل أي معلومات ولن يُحجز موعد فعلي.' },
+      { title: 'ماذا أحضر معي إلى الموعد؟', content: 'توضح العيادة الفعلية ما تحتاج إلى إحضاره عند تأكيد الموعد. لا تقدم هذه الصفحة إرشادات سريرية أو نصائح طبية شخصية.' },
+      { title: 'هل يمكن اختيار موعد للأسرة؟', content: 'اختر «رعاية الأطفال والأسرة» في حقل الخدمة لتجربة طلب يركز على الأسرة. تؤكد العيادة الفعلية نوع الموعد المناسب ومتطلباته.' },
+      { title: 'هل تتوفر المواعيد الهاتفية؟', content: 'أُدرجت الصيغة الهاتفية لتوضيح اختيار نوع الموعد، ولا تدل على توفر خدمة فعلية أو ملاءمة طبية.' },
+      { title: 'هل يمكن تعديل الطلب أو إلغاؤه؟', content: 'لا يوجد حجز فعلي في هذا العرض. يمكنك تغيير الخدمة المختارة أو تجهيز طلب نموذجي آخر. لا تُحفظ المعلومات بعد مغادرة الصفحة.' },
+    ] },
+    closeTitle: 'رعاية لليوم. وغدٌ أكثر صحة.', closeText: 'معك في الحوارات التي تساعدك على التقدم.', footer: 'عيادة خيالية. نموذج للصفحة الرئيسية. ليس نصيحة طبية.',
+  },
+};
