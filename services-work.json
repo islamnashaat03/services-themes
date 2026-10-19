@@ -89,5 +89,98 @@
     "templateVersion": "1.0.0",
     "package": "releases/creative-portfolio.zip",
     "mawqiStatus": "adapter-required"
+  },
+  {
+    "id": "real-estate",
+    "title": {
+      "ar": "فيلدستون — عقارات",
+      "en": "Fieldstone — Real estate"
+    },
+    "category": {
+      "ar": "مكتب عقارات",
+      "en": "Real estate agency"
+    },
+    "type": "showcase",
+    "clientProject": false,
+    "disclosure": {
+      "ar": "مشروع استعراضي من تصميم وتنفيذ إسلام نشأت",
+      "en": "Showcase project designed and built by Islam Nashaat"
+    },
+    "preview": "design/preview-real-estate.png",
+    "mobilePreview": "design/preview-real-estate-mobile.png",
+    "intendedOrigin": "https://estate.islamnashaat.com",
+    "previewUrl": "https://islamnashaat03.github.io/services-themes/demos/real-estate/",
+    "liveUrl": null,
+    "publishStatus": "awaiting-publication",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "defaultLanguage": "ar",
+    "templateVersion": "1.0.0",
+    "package": "releases/real-estate.zip",
+    "mawqiStatus": "adapter-required"
+  },
+  {
+    "id": "construction-company",
+    "title": {
+      "ar": "نماء — مقاولات",
+      "en": "Namaa — Construction"
+    },
+    "category": {
+      "ar": "شركة مقاولات",
+      "en": "Construction company"
+    },
+    "type": "showcase",
+    "clientProject": false,
+    "disclosure": {
+      "ar": "مشروع استعراضي من تصميم وتنفيذ إسلام نشأت",
+      "en": "Showcase project designed and built by Islam Nashaat"
+    },
+    "preview": "design/preview-construction-company.png",
+    "mobilePreview": "design/preview-construction-company-mobile.png",
+    "intendedOrigin": "https://construction.islamnashaat.com",
+    "previewUrl": "https://islamnashaat03.github.io/services-themes/demos/construction-company/",
+    "liveUrl": null,
+    "publishStatus": "awaiting-publication",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "defaultLanguage": "ar",
+    "templateVersion": "1.0.0",
+    "package": "releases/construction-company.zip",
+    "mawqiStatus": "adapter-required"
+  },
+  {
+    "id": "training-center",
+    "title": {
+      "ar": "مسار — مركز تدريب",
+      "en": "Masar — Training center"
+    },
+    "category": {
+      "ar": "مركز تدريب",
+      "en": "Training center"
+    },
+    "type": "showcase",
+    "clientProject": false,
+    "disclosure": {
+      "ar": "مشروع استعراضي من تصميم وتنفيذ إسلام نشأت",
+      "en": "Showcase project designed and built by Islam Nashaat"
+    },
+    "preview": "design/preview-training-center.png",
+    "mobilePreview": "design/preview-training-center-mobile.png",
+    "intendedOrigin": "https://academy.islamnashaat.com",
+    "previewUrl": "https://islamnashaat03.github.io/services-themes/demos/training-center/",
+    "liveUrl": null,
+    "publishStatus": "awaiting-publication",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "defaultLanguage": "ar",
+    "templateVersion": "1.0.0",
+    "package": "releases/training-center.zip",
+    "mawqiStatus": "adapter-required"
   }
 ]

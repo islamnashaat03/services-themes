@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "templateId": "training-center",
+  "templateVersion": "1.0.0",
+  "defaultLocale": "ar",
+  "locales": [
+    "ar",
+    "en"
+  ],
+  "kind": "showcase",
+  "name": {
+    "ar": "مسار — مركز تدريب",
+    "en": "Masar — Training center"
+  },
+  "industry": {
+    "ar": "مركز تدريب",
+    "en": "Training center"
+  },
+  "capabilities": [
+    "program-filters",
+    "program-details",
+    "faqs",
+    "local-interest-request"
+  ],
+  "futureModules": [],
+  "palette": {
+    "primary": "#352d61",
+    "background": "#ffffff",
+    "accent": "#d9743f"
+  },
+  "contentFiles": {
+    "ar": "theme-content/ar.json",
+    "en": "theme-content/en.json"
+  },
+  "editableFields": [
+    {
+      "path": "/brand",
+      "type": "text",
+      "default": "مسار"
+    },
+    {
+      "path": "/tagline",
+      "type": "text",
+      "default": "للتدريب"
+    },
+    {
+      "path": "/nav/0",
+      "type": "text",
+      "default": "البرامج"
+    },
+    {
+      "path": "/nav/1",
+      "type": "text",
+      "default": "طريقة التعلم"
+    },
+    {
+      "path": "/nav/2",
+      "type": "text",
+      "default": "الأسئلة"
+    },
+    {
+      "path": "/cta",
+      "type": "text",
+      "default": "اختار برنامجك"
+    },
+    {
+      "path": "/hero/title",
+      "type": "text",
+      "default": "مهارة جديدة.\nخطوة أبعد."
+    },
+    {
+      "path": "/hero/text",
+      "type": "text",
+      "default": "برامج عملية في التصميم والتسويق وإدارة المشاريع، تتعلم فيها بالممارسة."
+    },
+    {
+      "path": "/hero/button",
+      "type": "text",
+      "default": "استكشف البرامج"
+    },
+    {
+      "path": "/hero/alt",
+      "type": "text",
+      "default": "متعلمون شباب يتعاونون على تصميم عملي حول طاولة ورشة تدريب"
+    },
+    {
+      "path": "/servicesTitle",
+      "type": "text",
+      "default": "تعلّم ما تستخدمه فعلًا."
+    },
+    {
+      "path": "/itemsTitle",
+      "type": "text",
+      "default": "اختار خطوتك الجاية."
+    },
+    {
+      "path": "/filters/0/id",
+      "type": "text",
+      "default": "all"
+    },
+    {
+      "path": "/filters/0/label",
+      "type": "text",
+      "default": "الكل"
+    },
+    {
+      "path": "/filters/1/id",
+      "type": "text",
+      "default": "design"
+    },
+    {
+      "path": "/filters/1/label",
+      "type": "text",
+      "default": "التصميم"
+    },
+    {
+      "path": "/filters/2/id",
+      "type": "text",
+      "default": "business"
+    },
+    {
+      "path": "/filters/2/label",
+      "type": "text",
+      "default": "الأعمال"
+    },
+    {
+      "path": "/items/0/id",
+      "type": "text",
+      "default": "design-basics"
+    },
+    {
+      "path": "/items/0/title",
+      "type": "text",
+      "default": "أساسيات التصميم"
+    },
+    {
+      "path": "/items/0/category",
+      "type": "text",
+      "default": "design"
+    },
+    {
+      "path": "/items/0/meta",
+      "type": "text",
+      "default": "٤ أسابيع · تمارين ومشروع تطبيقي"
+    },
+    {
+      "path": "/items/0/text",
+      "type": "text",
+      "default": "برنامج توضيحي للمبتدئين في التكوين واللون والطباعة، ينتهي بمشروع هوية مصغّر. المدة والمحتوى أمثلة قابلة للتعديل."
+    },
+    {
+      "path": "/items/0/image",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "path": "/items/0/outcomes/0",
+      "type": "text",
+      "default": "التكوين والتوازن البصري"
+    },
+    {
+      "path": "/items/0/outcomes/1",
+      "type": "text",
+      "default": "اختيار الألوان والخطوط"
+    },
+    {
+      "path": "/items/0/outcomes/2",
+      "type": "text",
+      "default": "تقديم مشروع تصميم مصغّر"
+    },
+    {
+      "path": "/items/1/id",
+      "type": "text",
+      "default": "content-marketing"
+    },
+    {
+      "path": "/items/1/title",
+      "type": "text",
+      "default": "التسويق بالمحتوى"
+    },
+    {
+      "path": "/items/1/category",
+      "type": "text",
+      "default": "business"
+    },
+    {
+      "path": "/items/1/meta",
+      "type": "text",
+      "default": "٣ أسابيع · خطة محتوى تجريبية"
+    },
+    {
+      "path": "/items/1/text",
+      "type": "text",
+      "default": "تصور لبرنامج يساعدك على فهم الجمهور وصياغة الأفكار وترتيب خطة محتوى بسيطة."
+    },
+    {
+      "path": "/items/1/image",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "path": "/items/1/outcomes/0",
+      "type": "text",
+      "default": "تحديد الجمهور والرسالة"
+    },
+    {
+      "path": "/items/1/outcomes/1",
+      "type": "text",
+      "default": "تطوير أفكار قابلة للتنفيذ"
+    },
+    {
+      "path": "/items/1/outcomes/2",
+      "type": "text",
+      "default": "تنظيم خطة محتوى شهرية"
+    },
+    {
+      "path": "/items/2/id",
+      "type": "text",
+      "default": "project-management"
+    },
+    {
+      "path": "/items/2/title",
+      "type": "text",
+      "default": "إدارة المشاريع"
+    },
+    {
+      "path": "/items/2/category",
+      "type": "text",
+      "default": "business"
+    },
+    {
+      "path": "/items/2/meta",
+      "type": "text",
+      "default": "٥ أسابيع · أدوات تنظيم عملية"
+    },
+    {
+      "path": "/items/2/text",
+      "type": "text",
+      "default": "برنامج افتراضي لفهم النطاق والأولويات وتوزيع المهام ومتابعة التقدم، دون ادعاء اعتماد مهني."
+    },
+    {
+      "path": "/items/2/image",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "path": "/items/2/outcomes/0",
+      "type": "text",
+      "default": "تحديد النطاق والتسليمات"
+    },
+    {
+      "path": "/items/2/outcomes/1",
+      "type": "text",
+      "default": "ترتيب المهام والأولويات"
+    },
+    {
+      "path": "/items/2/outcomes/2",
+      "type": "text",
+      "default": "إعداد لوحة متابعة بسيطة"
+    },
+    {
+      "path": "/details",
+      "type": "text",
+      "default": "عرض التفاصيل"
+    },
+    {
+      "path": "/interest",
+      "type": "text",
+      "default": "مهتم بالبرنامج"
+    },
+    {
+      "path": "/stepsTitle",
+      "type": "text",
+      "default": "نتعلم بالتطبيق."
+    },
+    {
+      "path": "/steps/0/title",
+      "type": "text",
+      "default": "تجربة"
+    },
+    {
+      "path": "/steps/0/text",
+      "type": "text",
+      "default": "تطبّق الفكرة في تمارين بسيطة مرتبطة باستخدامها."
+    },
+    {
+      "path": "/steps/1/title",
+      "type": "text",
+      "default": "تغذية راجعة"
+    },
+    {
+      "path": "/steps/1/text",
+      "type": "text",
+      "default": "تراجع التجربة وتفهم ما يمكنك تطويره."
+    },
+    {
+      "path": "/steps/2/title",
+      "type": "text",
+      "default": "مشروع"
+    },
+    {
+      "path": "/steps/2/text",
+      "type": "text",
+      "default": "تجمع ما تعلمته في عمل تطبيقي يمكنك عرضه."
+    },
+    {
+      "path": "/faqTitle",
+      "type": "text",
+      "default": "قبل ما تبدأ."
+    },
+    {
+      "path": "/faqs/0/title",
+      "type": "text",
+      "default": "هل البرامج مناسبة للمبتدئين؟"
+    },
+    {
+      "path": "/faqs/0/text",
+      "type": "text",
+      "default": "المحتوى هنا يوضح كيف يمكن عرض مستوى كل برنامج ومتطلباته. البرامج الحالية أمثلة افتراضية."
+    },
+    {
+      "path": "/faqs/1/title",
+      "type": "text",
+      "default": "هل الحضور أونلاين؟"
+    },
+    {
+      "path": "/faqs/1/text",
+      "type": "text",
+      "default": "يمكن تخصيص الثيم لبرامج حضورية أو عن بعد. لا توجد جلسات أو مواعيد فعلية في هذه التجربة."
+    },
+    {
+      "path": "/faqs/2/title",
+      "type": "text",
+      "default": "هل التسجيل هنا فعلي؟"
+    },
+    {
+      "path": "/faqs/2/text",
+      "type": "text",
+      "default": "لا. النماذج تجربة محلية ولا تحجز مقعدًا ولا ترسل بيانات ولا تصدر شهادة."
+    },
+    {
+      "path": "/contact/title",
+      "type": "text",
+      "default": "ابدأ بالسؤال الصح."
+    },
+    {
+      "path": "/contact/text",
+      "type": "text",
+      "default": "اختار البرنامج وسيب لنا سؤالك في التجربة. لا يتم إرسال بيانات أو حجز مقعد."
+    },
+    {
+      "path": "/contact/name",
+      "type": "text",
+      "default": "الاسم"
+    },
+    {
+      "path": "/contact/email",
+      "type": "text",
+      "default": "البريد الإلكتروني"
+    },
+    {
+      "path": "/contact/choice",
+      "type": "text",
+      "default": "البرنامج"
+    },
+    {
+      "path": "/contact/message",
+      "type": "text",
+      "default": "سؤالك"
+    },
+    {
+      "path": "/contact/submit",
+      "type": "text",
+      "default": "تجهيز طلب الاهتمام"
+    },
+    {
+      "path": "/footer",
+      "type": "text",
+      "default": "مسار للتدريب — مشروع استعراضي من تصميم وتنفيذ إسلام نشأت."
+    }
+  ],
+  "sections": [
+    {
+      "id": "training-center-home",
+      "enabled": true
+    },
+    {
+      "id": "training-center-statement",
+      "enabled": true
+    },
+    {
+      "id": "training-center-programs",
+      "enabled": true
+    },
+    {
+      "id": "training-center-approach",
+      "enabled": true
+    },
+    {
+      "id": "training-center-questions",
+      "enabled": true
+    },
+    {
+      "id": "training-center-contact",
+      "enabled": true
+    }
+  ],
+  "attribution": {
+    "type": "authored-demo",
+    "clientProject": false,
+    "author": "Islam Nashaat"
+  },
+  "mawqi": {
+    "status": "adapter-required",
+    "installed": false
+  },
+  "liveOrigin": "https://islamnashaat03.github.io/services-themes/demos/training-center"
+}

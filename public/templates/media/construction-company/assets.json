@@ -1,0 +1,19 @@
+{
+  "provider": "OpenAI built-in Image Gen",
+  "fictional": true,
+  "file": "hero.webp",
+  "source": "exec-8dd216e2-198e-4263-af7d-4bc06a608317.png",
+  "processing": "WebP quality 85; up to 1536px",
+  "use": "Fictional architectural concept, not delivered client work",
+  "additionalAssets": [
+    {
+      "file": "workspace.webp",
+      "source": "Unsplash",
+      "sourceUrl": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=82",
+      "license": "https://unsplash.com/license",
+      "use": "Illustrative fit-out concept, not delivered client work",
+      "verified": "Downloaded successfully and visually inspected 2026-10-15",
+      "processing": "Resized to 1000px wide, WebP quality 82"
+    }
+  ]
+}

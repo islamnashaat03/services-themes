@@ -61,7 +61,7 @@ export function Dialog({open, onClose, title, children}: {open: boolean; onClose
   </dialog>;
 }
 
-export type FormField = {name: string; label: string; type?: string; options?: {value: string; label: string}[]; required?: boolean; placeholder?: string; min?: string};
+export type FormField = {name: string; label: string; type?: string; options?: {value: string; label: string}[]; defaultValue?:string; required?: boolean; placeholder?: string; min?: string};
 export function DemoForm({locale, fields, submitLabel, onComplete}: {locale: Locale; fields: FormField[]; submitLabel?: string; onComplete?: (values: Record<string, string>) => void}) {
   const [done, setDone] = useState(false);
   const [error, setError] = useState('');
@@ -77,7 +77,7 @@ export function DemoForm({locale, fields, submitLabel, onComplete}: {locale: Loc
   return <form className="demo-form" onSubmit={submit} onChange={() => {setDone(false);setError('');}}>
     <p className="demo-form-disclosure">{t(locale, 'Interactive demo. No information will be sent.', 'عرض تفاعلي تجريبي. لن تُرسل أي معلومات.')}</p>
     <div className="demo-form-fields">{fields.map(field => <label className="demo-field" key={field.name}><span>{field.label}{field.required === false ? t(locale,' (optional)',' (اختياري)') : ''}</span>
-      {field.options ? <select name={field.name} required={field.required !== false} defaultValue=""><option value="">{t(locale,'Choose an option','اختر أحد الخيارات')}</option>{field.options.map(option => <option key={option.value} value={option.value}>{option.label}</option>)}</select>
+      {field.options ? <select name={field.name} required={field.required !== false} defaultValue={field.defaultValue||''}><option value="">{t(locale,'Choose an option','اختر أحد الخيارات')}</option>{field.options.map(option => <option key={option.value} value={option.value}>{option.label}</option>)}</select>
       : field.type === 'textarea' ? <textarea name={field.name} required={field.required !== false} placeholder={field.placeholder} rows={4}/>
       : <input name={field.name} type={field.type || 'text'} required={field.required !== false} placeholder={field.placeholder} min={field.min} autoComplete={field.type === 'email' ? 'email' : field.name === 'name' ? 'name' : 'off'}/>}
     </label>)}</div>

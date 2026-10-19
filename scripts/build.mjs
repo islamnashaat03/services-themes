@@ -14,6 +14,7 @@ const origins=JSON.parse(await readFile('theme-origins.json','utf8'));
 const basePath=process.env.THEME_BASE_PATH||'/';
 const outputRoot=process.env.THEME_OUTPUT_DIR||'dist';
 if(!basePath.startsWith('/')||!basePath.endsWith('/'))throw Error('Base path must start and end with /');
+const favicon='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%227%22 fill=%22%2330473a%22/%3E%3Cpath d=%22M8 23V9h5l3 7 3-7h5v14h-4v-8l-4 8-4-8v8z%22 fill=%22white%22/%3E%3C/svg%3E';
 const esc=x=>String(x).replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;');
 function fields(value,prefix=''){
  return Object.entries(value).flatMap(([key,v])=>{
@@ -37,7 +38,7 @@ for(const id of themeIds){
   const title=data.name[locale],description=locale==='ar'?`${data.industry.ar} — تصميم استعراضي عربي يدعم الإنجليزية، قابل للتخصيص.`:`${data.industry.en} — a bilingual showcase website ready for customization.`;
   const origin=process.env.THEME_ORIGIN||origins[id];
   const meta=origin?`<link rel="canonical" href="${esc(origin)}/${locale}/"/><link rel="alternate" hreflang="ar" href="${esc(origin)}/ar/"/><link rel="alternate" hreflang="en" href="${esc(origin)}/en/"/><link rel="alternate" hreflang="x-default" href="${esc(origin)}/"/>`:'';
-  const html=`<!doctype html><html lang="${locale}" dir="${locale==='ar'?'rtl':'ltr'}" data-theme="${id}"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="${data.palette.primary}"/><title>${esc(title)}</title><meta name="description" content="${esc(description)}"/><meta name="robots" content="noindex,follow"/>${meta}<link rel="stylesheet" href="${basePath}fonts/${data.fontSheet}"/>${css.map(file=>`<link rel="stylesheet" href="${basePath}${file}"/>`).join('')}</head><body><div id="root" data-prerendered="true">${markup}</div><script type="module" src="${basePath}${entry.file}"></script></body></html>`;
+  const html=`<!doctype html><html lang="${locale}" dir="${locale==='ar'?'rtl':'ltr'}" data-theme="${id}"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="icon" href="${favicon}"/><meta name="theme-color" content="${data.palette.primary}"/><title>${esc(title)}</title><meta name="description" content="${esc(description)}"/><meta name="robots" content="noindex,follow"/>${meta}<link rel="stylesheet" href="${basePath}fonts/${data.fontSheet}"/>${css.map(file=>`<link rel="stylesheet" href="${basePath}${file}"/>`).join('')}</head><body><div id="root" data-prerendered="true">${markup}</div><script type="module" src="${basePath}${entry.file}"></script></body></html>`;
   await mkdir(path.join(destination,locale),{recursive:true});await writeFile(path.join(destination,locale,'index.html'),html);
   if(locale==='ar')await writeFile(path.join(destination,'index.html'),html);
   await writeFile(path.join(destination,'theme-content',`${locale}.json`),JSON.stringify(data.content[locale],null,2)+'\n');
@@ -47,3 +48,4 @@ for(const id of themeIds){
  console.log(`Exported ${id}: Arabic root + /ar/ + /en/, content JSON and versioned manifest.`);
 }
 await writeFile(path.join(outputRoot,'catalogue.json'),JSON.stringify(themeIds.map(id=>{const d=themeData(id);return{id,name:d.name,industry:d.industry,defaultLocale:'ar',locales:['ar','en'],url:origins[id]||null,version:d.version,type:'showcase'};}),null,2)+'\n');
+

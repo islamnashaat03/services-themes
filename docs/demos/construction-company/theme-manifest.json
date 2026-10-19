@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 1,
+  "templateId": "construction-company",
+  "templateVersion": "1.0.0",
+  "defaultLocale": "ar",
+  "locales": [
+    "ar",
+    "en"
+  ],
+  "kind": "showcase",
+  "name": {
+    "ar": "نماء — مقاولات",
+    "en": "Namaa — Construction"
+  },
+  "industry": {
+    "ar": "شركة مقاولات",
+    "en": "Construction company"
+  },
+  "capabilities": [
+    "project-filters",
+    "project-details",
+    "local-project-request"
+  ],
+  "futureModules": [],
+  "palette": {
+    "primary": "#202c32",
+    "background": "#ffffff",
+    "accent": "#cbdc85"
+  },
+  "contentFiles": {
+    "ar": "theme-content/ar.json",
+    "en": "theme-content/en.json"
+  },
+  "editableFields": [
+    {
+      "path": "/brand",
+      "type": "text",
+      "default": "نماء"
+    },
+    {
+      "path": "/tagline",
+      "type": "text",
+      "default": "للمقاولات"
+    },
+    {
+      "path": "/nav/0",
+      "type": "text",
+      "default": "خدماتنا"
+    },
+    {
+      "path": "/nav/1",
+      "type": "text",
+      "default": "أعمالنا"
+    },
+    {
+      "path": "/nav/2",
+      "type": "text",
+      "default": "خطوات التنفيذ"
+    },
+    {
+      "path": "/cta",
+      "type": "text",
+      "default": "ناقش مشروعك"
+    },
+    {
+      "path": "/hero/title",
+      "type": "text",
+      "default": "نبني فكرتك،\nبتفاصيل تستحق."
+    },
+    {
+      "path": "/hero/text",
+      "type": "text",
+      "default": "تنفيذ وتشطيب المساحات السكنية والتجارية، من التخطيط إلى التسليم."
+    },
+    {
+      "path": "/hero/button",
+      "type": "text",
+      "default": "استعرض الأعمال"
+    },
+    {
+      "path": "/hero/alt",
+      "type": "text",
+      "default": "تصور معماري لبيت حديث من الحجر والخشب تحيط به أشجار الزيتون"
+    },
+    {
+      "path": "/servicesTitle",
+      "type": "text",
+      "default": "نطاق عمل واضح."
+    },
+    {
+      "path": "/services/0/title",
+      "type": "text",
+      "default": "إنشاءات"
+    },
+    {
+      "path": "/services/0/text",
+      "type": "text",
+      "default": "تنسيق أعمال المباني والمساحات الجديدة ضمن نطاق وخطة واضحة."
+    },
+    {
+      "path": "/services/1/title",
+      "type": "text",
+      "default": "تشطيبات داخلية"
+    },
+    {
+      "path": "/services/1/text",
+      "type": "text",
+      "default": "تفاصيل عملية للمواد والإضاءة والتقسيمات، تناسب استخدام المساحة."
+    },
+    {
+      "path": "/services/2/title",
+      "type": "text",
+      "default": "تجديد وتأهيل"
+    },
+    {
+      "path": "/services/2/text",
+      "type": "text",
+      "default": "تطوير المساحات القائمة مع الحفاظ على العناصر التي تمنحها طابعها."
+    },
+    {
+      "path": "/itemsTitle",
+      "type": "text",
+      "default": "مساحات نفّذناها كتصورات."
+    },
+    {
+      "path": "/filters/0/id",
+      "type": "text",
+      "default": "all"
+    },
+    {
+      "path": "/filters/0/label",
+      "type": "text",
+      "default": "الكل"
+    },
+    {
+      "path": "/filters/1/id",
+      "type": "text",
+      "default": "residential"
+    },
+    {
+      "path": "/filters/1/label",
+      "type": "text",
+      "default": "سكني"
+    },
+    {
+      "path": "/filters/2/id",
+      "type": "text",
+      "default": "commercial"
+    },
+    {
+      "path": "/filters/2/label",
+      "type": "text",
+      "default": "تجاري"
+    },
+    {
+      "path": "/items/0/id",
+      "type": "text",
+      "default": "courtyard"
+    },
+    {
+      "path": "/items/0/title",
+      "type": "text",
+      "default": "بيت الفناء"
+    },
+    {
+      "path": "/items/0/category",
+      "type": "text",
+      "default": "residential"
+    },
+    {
+      "path": "/items/0/meta",
+      "type": "text",
+      "default": "تصور سكني · إنشاء وتشطيب"
+    },
+    {
+      "path": "/items/0/text",
+      "type": "text",
+      "default": "تصور لبيت يوازن بين خصوصية الفناء والإضاءة الطبيعية. هذا عرض استعراضي، وليس مشروع عميل منفذًا."
+    },
+    {
+      "path": "/items/0/image",
+      "type": "image",
+      "default": "hero.webp"
+    },
+    {
+      "path": "/items/0/outcomes/0",
+      "type": "text",
+      "default": "توزيع مساحات مفتوحة حول الفناء"
+    },
+    {
+      "path": "/items/0/outcomes/1",
+      "type": "text",
+      "default": "مواد طبيعية وتفاصيل قابلة للصيانة"
+    },
+    {
+      "path": "/items/0/outcomes/2",
+      "type": "text",
+      "default": "نطاق توضيحي للتنفيذ والتشطيب"
+    },
+    {
+      "path": "/items/1/id",
+      "type": "text",
+      "default": "workspace"
+    },
+    {
+      "path": "/items/1/title",
+      "type": "text",
+      "default": "مساحة العمل"
+    },
+    {
+      "path": "/items/1/category",
+      "type": "text",
+      "default": "commercial"
+    },
+    {
+      "path": "/items/1/meta",
+      "type": "text",
+      "default": "تصور تجاري · تشطيب داخلي"
+    },
+    {
+      "path": "/items/1/text",
+      "type": "text",
+      "default": "مساحة عمل افتراضية تجمع بين مناطق التعاون وغرف العمل الهادئ. الصور والنطاق للتوضيح فقط."
+    },
+    {
+      "path": "/items/1/image",
+      "type": "image",
+      "default": "workspace.webp"
+    },
+    {
+      "path": "/items/1/outcomes/0",
+      "type": "text",
+      "default": "مناطق مرنة للاجتماعات والعمل"
+    },
+    {
+      "path": "/items/1/outcomes/1",
+      "type": "text",
+      "default": "تنسيق الإضاءة ومسارات الحركة"
+    },
+    {
+      "path": "/items/1/outcomes/2",
+      "type": "text",
+      "default": "خامات عملية للاستخدام اليومي"
+    },
+    {
+      "path": "/details",
+      "type": "text",
+      "default": "عرض التفاصيل"
+    },
+    {
+      "path": "/interest",
+      "type": "text",
+      "default": "ناقش مشروعًا مشابهًا"
+    },
+    {
+      "path": "/stepsTitle",
+      "type": "text",
+      "default": "من أول مخطط إلى آخر تفصيلة."
+    },
+    {
+      "path": "/steps/0/title",
+      "type": "text",
+      "default": "نفهم المطلوب"
+    },
+    {
+      "path": "/steps/0/text",
+      "type": "text",
+      "default": "نستمع إلى الفكرة ونحدد استخدام المساحة والأولويات."
+    },
+    {
+      "path": "/steps/1/title",
+      "type": "text",
+      "default": "نحدد النطاق"
+    },
+    {
+      "path": "/steps/1/text",
+      "type": "text",
+      "default": "نرتب المطلوب والمواد والخطوات قبل البدء."
+    },
+    {
+      "path": "/steps/2/title",
+      "type": "text",
+      "default": "نرتب التنفيذ"
+    },
+    {
+      "path": "/steps/2/text",
+      "type": "text",
+      "default": "نوضح نقاط المتابعة والتسليم والتواصل خلال العمل."
+    },
+    {
+      "path": "/faqTitle",
+      "type": "text",
+      "default": "أسئلة المشروع"
+    },
+    {
+      "path": "/contact/title",
+      "type": "text",
+      "default": "احكي لنا عن مشروعك."
+    },
+    {
+      "path": "/contact/text",
+      "type": "text",
+      "default": "نموذج تجريبي؛ لا تُرسل بيانات ولا يصدر منه عرض سعر فعلي."
+    },
+    {
+      "path": "/contact/name",
+      "type": "text",
+      "default": "الاسم"
+    },
+    {
+      "path": "/contact/email",
+      "type": "text",
+      "default": "البريد الإلكتروني"
+    },
+    {
+      "path": "/contact/choice",
+      "type": "text",
+      "default": "نوع المشروع"
+    },
+    {
+      "path": "/contact/message",
+      "type": "text",
+      "default": "عن المشروع"
+    },
+    {
+      "path": "/contact/submit",
+      "type": "text",
+      "default": "تجهيز طلب المشروع"
+    },
+    {
+      "path": "/footer",
+      "type": "text",
+      "default": "نماء للمقاولات — مشروع استعراضي من تصميم وتنفيذ إسلام نشأت."
+    }
+  ],
+  "sections": [
+    {
+      "id": "construction-company-home",
+      "enabled": true
+    },
+    {
+      "id": "construction-company-services",
+      "enabled": true
+    },
+    {
+      "id": "construction-company-projects",
+      "enabled": true
+    },
+    {
+      "id": "construction-company-approach",
+      "enabled": true
+    },
+    {
+      "id": "construction-company-contact",
+      "enabled": true
+    }
+  ],
+  "attribution": {
+    "type": "authored-demo",
+    "clientProject": false,
+    "author": "Islam Nashaat"
+  },
+  "mawqi": {
+    "status": "adapter-required",
+    "installed": false
+  },
+  "liveOrigin": "https://islamnashaat03.github.io/services-themes/demos/construction-company"
+}

@@ -1,0 +1,116 @@
+{
+  "brand": "Masar",
+  "tagline": "Learning studio",
+  "nav": [
+    "Programs",
+    "How we learn",
+    "Questions"
+  ],
+  "cta": "Choose your program",
+  "hero": {
+    "title": "A new skill.\nA step forward.",
+    "text": "Practical design, marketing and project management programs built around learning by doing.",
+    "button": "Explore programs",
+    "alt": "Young adult learners collaborate on a practical design exercise at a workshop table"
+  },
+  "servicesTitle": "Learn what you will actually use.",
+  "services": [],
+  "itemsTitle": "Choose your next step.",
+  "filters": [
+    {
+      "id": "all",
+      "label": "All"
+    },
+    {
+      "id": "design",
+      "label": "Design"
+    },
+    {
+      "id": "business",
+      "label": "Business"
+    }
+  ],
+  "items": [
+    {
+      "id": "design-basics",
+      "title": "Design foundations",
+      "category": "design",
+      "meta": "4 weeks · Exercises and a practical project",
+      "text": "An illustrative beginner program exploring composition, colour and typography through a small identity project. Duration and curriculum are editable examples.",
+      "image": "",
+      "outcomes": [
+        "Composition and visual balance",
+        "Choosing colours and type",
+        "Presenting a small design project"
+      ]
+    },
+    {
+      "id": "content-marketing",
+      "title": "Content marketing",
+      "category": "business",
+      "meta": "3 weeks · An illustrative content plan",
+      "text": "A program concept for understanding an audience, developing ideas and organising a simple content plan.",
+      "image": "",
+      "outcomes": [
+        "Define the audience and message",
+        "Develop practical content ideas",
+        "Organise a monthly content plan"
+      ]
+    },
+    {
+      "id": "project-management",
+      "title": "Project management",
+      "category": "business",
+      "meta": "5 weeks · Practical organisation tools",
+      "text": "A fictional program exploring scope, priorities, tasks and progress tracking. No professional accreditation is claimed.",
+      "image": "",
+      "outcomes": [
+        "Define scope and deliverables",
+        "Prioritise and sequence tasks",
+        "Create a simple progress board"
+      ]
+    }
+  ],
+  "details": "View details",
+  "interest": "Interested in this program",
+  "stepsTitle": "Learn by doing.",
+  "steps": [
+    {
+      "title": "Try",
+      "text": "Apply an idea through simple exercises grounded in its use."
+    },
+    {
+      "title": "Get feedback",
+      "text": "Review the experience and understand what you can improve."
+    },
+    {
+      "title": "Make a project",
+      "text": "Bring the learning together in a practical piece of work."
+    }
+  ],
+  "faqTitle": "Before you begin.",
+  "faqs": [
+    {
+      "title": "Are programs suitable for beginners?",
+      "text": "This demo shows how program levels and prerequisites can be presented. All current programs are fictional examples."
+    },
+    {
+      "title": "Are sessions online?",
+      "text": "The theme can describe in-person or remote programs. There are no real sessions or scheduled dates in this demo."
+    },
+    {
+      "title": "Does this form register me?",
+      "text": "No. Forms are local demos: they do not reserve a place, send information or issue certificates."
+    }
+  ],
+  "contact": {
+    "title": "Start with the right question.",
+    "text": "Choose a program and try preparing a question. Nothing is sent and no place is reserved.",
+    "name": "Name",
+    "email": "Email",
+    "choice": "Program",
+    "message": "Your question",
+    "submit": "Prepare interest request"
+  },
+  "footer": "Masar Learning — a showcase designed and built by Islam Nashaat."
+}

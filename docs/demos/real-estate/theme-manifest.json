@@ -1,0 +1,694 @@
+{
+  "schemaVersion": 1,
+  "templateId": "real-estate",
+  "templateVersion": "1.0.0",
+  "defaultLocale": "ar",
+  "locales": [
+    "ar",
+    "en"
+  ],
+  "kind": "showcase",
+  "name": {
+    "ar": "فيلدستون — عقارات",
+    "en": "Fieldstone — Real estate"
+  },
+  "industry": {
+    "ar": "مكتب عقارات",
+    "en": "Real estate agency"
+  },
+  "capabilities": [
+    "property-filters",
+    "local-shortlist",
+    "property-details",
+    "local-viewing-request"
+  ],
+  "futureModules": [],
+  "palette": {
+    "primary": "#30473a",
+    "background": "#f7f8f4",
+    "accent": "#b65d30"
+  },
+  "contentFiles": {
+    "ar": "theme-content/ar.json",
+    "en": "theme-content/en.json"
+  },
+  "editableFields": [
+    {
+      "path": "/a11y/skip",
+      "type": "text",
+      "default": "انتقل إلى المحتوى"
+    },
+    {
+      "path": "/a11y/menu",
+      "type": "text",
+      "default": "القائمة"
+    },
+    {
+      "path": "/a11y/navigation",
+      "type": "text",
+      "default": "التصفح الرئيسي"
+    },
+    {
+      "path": "/a11y/intent",
+      "type": "text",
+      "default": "شراء أو إيجار"
+    },
+    {
+      "path": "/a11y/hero",
+      "type": "text",
+      "default": "غرفة معيشة مشرقة بألوان طبيعية وأثاث هادئ"
+    },
+    {
+      "path": "/a11y/advisor",
+      "type": "text",
+      "default": "صورة توضيحية للمستشارة العقارية"
+    },
+    {
+      "path": "/a11y/footer",
+      "type": "text",
+      "default": "روابط الصفحة"
+    },
+    {
+      "path": "/currency",
+      "type": "text",
+      "default": "ج.م"
+    },
+    {
+      "path": "/brand",
+      "type": "text",
+      "default": "فيلدستون"
+    },
+    {
+      "path": "/nav/0",
+      "type": "text",
+      "default": "العقارات"
+    },
+    {
+      "path": "/nav/1",
+      "type": "text",
+      "default": "الأحياء"
+    },
+    {
+      "path": "/nav/2",
+      "type": "text",
+      "default": "اعرض عقارك"
+    },
+    {
+      "path": "/nav/3",
+      "type": "text",
+      "default": "عنّا"
+    },
+    {
+      "path": "/nav/4",
+      "type": "text",
+      "default": "تواصل معنا"
+    },
+    {
+      "path": "/hero",
+      "type": "text",
+      "default": "مكان يشبهك.\nوحياة تناسبك."
+    },
+    {
+      "path": "/intro",
+      "type": "text",
+      "default": "منازل مختارة بعناية في أحياء القاهرة المحببة. لمن يقدّرون التصميم والمجتمع وتفاصيل الحياة الهادئة."
+    },
+    {
+      "path": "/buy",
+      "type": "text",
+      "default": "شراء"
+    },
+    {
+      "path": "/rent",
+      "type": "text",
+      "default": "إيجار"
+    },
+    {
+      "path": "/location",
+      "type": "text",
+      "default": "الموقع أو الحي"
+    },
+    {
+      "path": "/anyLocation",
+      "type": "text",
+      "default": "كل الأحياء"
+    },
+    {
+      "path": "/propertyType",
+      "type": "text",
+      "default": "نوع العقار"
+    },
+    {
+      "path": "/anyType",
+      "type": "text",
+      "default": "كل أنواع العقارات"
+    },
+    {
+      "path": "/search",
+      "type": "text",
+      "default": "اكتشف المنازل"
+    },
+    {
+      "path": "/selected",
+      "type": "text",
+      "default": "منازل مختارة"
+    },
+    {
+      "path": "/allHomes",
+      "type": "text",
+      "default": "شاهد كل المنازل"
+    },
+    {
+      "path": "/results",
+      "type": "text",
+      "default": "منازل للاكتشاف"
+    },
+    {
+      "path": "/empty",
+      "type": "text",
+      "default": "لنجرّب اختيارات أخرى."
+    },
+    {
+      "path": "/emptyText",
+      "type": "text",
+      "default": "لا توجد منازل تجريبية تناسب هذه الاختيارات. اختر حيًا آخر أو أزل الفلاتر."
+    },
+    {
+      "path": "/clear",
+      "type": "text",
+      "default": "إزالة الفلاتر"
+    },
+    {
+      "path": "/neighborhoods",
+      "type": "text",
+      "default": "حيّ يناسب يومك."
+    },
+    {
+      "path": "/neighborhoodIntro",
+      "type": "text",
+      "default": "أقرب للأماكن والتفاصيل والأشخاص الذين تحبهم."
+    },
+    {
+      "path": "/neighborhoodNotes/0",
+      "type": "text",
+      "default": "حياة عصرية واتصال أفضل."
+    },
+    {
+      "path": "/neighborhoodNotes/1",
+      "type": "text",
+      "default": "مساحات خضراء ومتنفّس أوسع."
+    },
+    {
+      "path": "/neighborhoodNotes/2",
+      "type": "text",
+      "default": "إيقاع هادئ بالقرب من النيل."
+    },
+    {
+      "path": "/neighborhoodNotes/3",
+      "type": "text",
+      "default": "مساحة أكبر لحياة تنمو."
+    },
+    {
+      "path": "/buying",
+      "type": "text",
+      "default": "تبحث عن منزلك؟"
+    },
+    {
+      "path": "/buyingText",
+      "type": "text",
+      "default": "من البحث الأول حتى تسلّم المفتاح، نساعدك على فهم خياراتك واكتشاف التفاصيل التي تهمّك."
+    },
+    {
+      "path": "/selling",
+      "type": "text",
+      "default": "تريد بيع منزلك؟"
+    },
+    {
+      "path": "/sellingText",
+      "type": "text",
+      "default": "عرض مدروس، وحوار واضح، وخطة تناسب عقارك وتساعدك على اتخاذ الخطوة التالية."
+    },
+    {
+      "path": "/learn",
+      "type": "text",
+      "default": "لنتحدث عن خطوتك"
+    },
+    {
+      "path": "/advisor",
+      "type": "text",
+      "default": "مستشارتك في كل خطوة."
+    },
+    {
+      "path": "/advisorText",
+      "type": "text",
+      "default": "تعرّف على لارا، رفيقتك من أول حوار حتى باب المنزل الذي تحبّه. نستمع إليك، ونختار معك، ونوضح لك الخطوة التالية."
+    },
+    {
+      "path": "/advisorRole",
+      "type": "text",
+      "default": "لارا منصور · مستشارة عقارية"
+    },
+    {
+      "path": "/contact",
+      "type": "text",
+      "default": "ابدأ حوارًا معنا"
+    },
+    {
+      "path": "/process",
+      "type": "text",
+      "default": "من النظرة الأولى إلى المعاينة."
+    },
+    {
+      "path": "/processIntro",
+      "type": "text",
+      "default": "خطوات واضحة ومساعدة قريبة."
+    },
+    {
+      "path": "/processSteps/0/0",
+      "type": "text",
+      "default": "احكِ لنا عن منزل أحلامك"
+    },
+    {
+      "path": "/processSteps/0/1",
+      "type": "text",
+      "default": "شاركنا الموقع وتفاصيل يومك وأولوياتك."
+    },
+    {
+      "path": "/processSteps/1/0",
+      "type": "text",
+      "default": "اكتشف قائمة تناسبك"
+    },
+    {
+      "path": "/processSteps/1/1",
+      "type": "text",
+      "default": "احتفظ بالمنازل التي تحبها وقارن التفاصيل."
+    },
+    {
+      "path": "/processSteps/2/0",
+      "type": "text",
+      "default": "شاهد المنزل بنفسك"
+    },
+    {
+      "path": "/processSteps/2/1",
+      "type": "text",
+      "default": "اطلب معاينة لتتعرّف على المكان عن قرب."
+    },
+    {
+      "path": "/shortlist",
+      "type": "text",
+      "default": "منازلك المفضّلة"
+    },
+    {
+      "path": "/shortlistText",
+      "type": "text",
+      "default": "احتفظ ببعض الخيارات، وعد إليها عندما تكون مستعدًا."
+    },
+    {
+      "path": "/shortlistEmpty",
+      "type": "text",
+      "default": "منزلك القادم يبدأ باختيار تحبّه."
+    },
+    {
+      "path": "/shortlistEmptyText",
+      "type": "text",
+      "default": "اضغط على القلب بجانب أي منزل للاحتفاظ به هنا. تُحفظ قائمتك في هذا المتصفح."
+    },
+    {
+      "path": "/save",
+      "type": "text",
+      "default": "حفظ المنزل"
+    },
+    {
+      "path": "/remove",
+      "type": "text",
+      "default": "إزالة من المفضّلة"
+    },
+    {
+      "path": "/saved",
+      "type": "text",
+      "default": "محفوظ"
+    },
+    {
+      "path": "/details",
+      "type": "text",
+      "default": "اكتشف هذا المنزل"
+    },
+    {
+      "path": "/viewing",
+      "type": "text",
+      "default": "اطلب معاينة"
+    },
+    {
+      "path": "/viewingText",
+      "type": "text",
+      "default": "أعجبك منزل؟ أخبرنا ببعض التفاصيل واليوم الذي يناسبك."
+    },
+    {
+      "path": "/viewingFor",
+      "type": "text",
+      "default": "طلب معاينة:"
+    },
+    {
+      "path": "/general",
+      "type": "text",
+      "default": "ساعدوني في اختيار منزل"
+    },
+    {
+      "path": "/request",
+      "type": "text",
+      "default": "تجهيز طلب المعاينة"
+    },
+    {
+      "path": "/name",
+      "type": "text",
+      "default": "الاسم الكامل"
+    },
+    {
+      "path": "/email",
+      "type": "text",
+      "default": "البريد الإلكتروني"
+    },
+    {
+      "path": "/phone",
+      "type": "text",
+      "default": "رقم الهاتف"
+    },
+    {
+      "path": "/date",
+      "type": "text",
+      "default": "التاريخ المفضّل"
+    },
+    {
+      "path": "/note",
+      "type": "text",
+      "default": "ما الذي تبحث عنه؟"
+    },
+    {
+      "path": "/demo",
+      "type": "text",
+      "default": "نشاط خيالي ونموذج للصفحة الرئيسية. العقارات والأسعار وملفات المستشارين أمثلة توضيحية."
+    },
+    {
+      "path": "/tagline",
+      "type": "text",
+      "default": "منازل لحياة أكثر هدوءًا واهتمامًا."
+    },
+    {
+      "path": "/gallery",
+      "type": "text",
+      "default": "كل تصاميم الصفحات"
+    },
+    {
+      "path": "/customize",
+      "type": "text",
+      "default": "تخصيص هذا التصميم"
+    },
+    {
+      "path": "/propertyCopy",
+      "type": "text",
+      "default": "منزل مريح بإضاءة طبيعية ومساحات مدروسة تمنحك حرية التعبير عن أسلوبك. الصور والمعلومات العقارية محتوى تجريبي توضيحي."
+    },
+    {
+      "path": "/beds",
+      "type": "text",
+      "default": "غرف نوم"
+    },
+    {
+      "path": "/baths",
+      "type": "text",
+      "default": "حمّامات"
+    },
+    {
+      "path": "/area",
+      "type": "text",
+      "default": "م²"
+    },
+    {
+      "path": "/monthly",
+      "type": "text",
+      "default": "/ شهر"
+    },
+    {
+      "path": "/priceLabel",
+      "type": "text",
+      "default": "سعر توضيحي للعقار"
+    },
+    {
+      "path": "/language",
+      "type": "text",
+      "default": "English"
+    },
+    {
+      "path": "/back",
+      "type": "text",
+      "default": "تصفّح المنازل المختارة"
+    },
+    {
+      "path": "/locations/newCairo",
+      "type": "text",
+      "default": "القاهرة الجديدة"
+    },
+    {
+      "path": "/locations/zayed",
+      "type": "text",
+      "default": "الشيخ زايد"
+    },
+    {
+      "path": "/locations/maadi",
+      "type": "text",
+      "default": "المعادي"
+    },
+    {
+      "path": "/locations/eastCairo",
+      "type": "text",
+      "default": "شرق القاهرة"
+    },
+    {
+      "path": "/types/villa",
+      "type": "text",
+      "default": "فيلا"
+    },
+    {
+      "path": "/types/apartment",
+      "type": "text",
+      "default": "شقة"
+    },
+    {
+      "path": "/types/townhouse",
+      "type": "text",
+      "default": "تاون هاوس"
+    },
+    {
+      "path": "/titles/0",
+      "type": "text",
+      "default": "سيدر ريزيدنس"
+    },
+    {
+      "path": "/titles/1",
+      "type": "text",
+      "default": "بالم تيراس"
+    },
+    {
+      "path": "/titles/2",
+      "type": "text",
+      "default": "منزل الفناء"
+    },
+    {
+      "path": "/titles/3",
+      "type": "text",
+      "default": "شقة الحديقة"
+    },
+    {
+      "path": "/titles/4",
+      "type": "text",
+      "default": "فيلا الشمس"
+    },
+    {
+      "path": "/titles/5",
+      "type": "text",
+      "default": "بارك سايد"
+    },
+    {
+      "path": "/listings/0/id",
+      "type": "text",
+      "default": "cedar"
+    },
+    {
+      "path": "/listings/0/location",
+      "type": "text",
+      "default": "newCairo"
+    },
+    {
+      "path": "/listings/0/type",
+      "type": "text",
+      "default": "villa"
+    },
+    {
+      "path": "/listings/0/intent",
+      "type": "text",
+      "default": "buy"
+    },
+    {
+      "path": "/listings/0/image",
+      "type": "image",
+      "default": "villa.webp"
+    },
+    {
+      "path": "/listings/1/id",
+      "type": "text",
+      "default": "palm"
+    },
+    {
+      "path": "/listings/1/location",
+      "type": "text",
+      "default": "zayed"
+    },
+    {
+      "path": "/listings/1/type",
+      "type": "text",
+      "default": "apartment"
+    },
+    {
+      "path": "/listings/1/intent",
+      "type": "text",
+      "default": "buy"
+    },
+    {
+      "path": "/listings/1/image",
+      "type": "image",
+      "default": "hero.webp"
+    },
+    {
+      "path": "/listings/2/id",
+      "type": "text",
+      "default": "courtyard"
+    },
+    {
+      "path": "/listings/2/location",
+      "type": "text",
+      "default": "eastCairo"
+    },
+    {
+      "path": "/listings/2/type",
+      "type": "text",
+      "default": "townhouse"
+    },
+    {
+      "path": "/listings/2/intent",
+      "type": "text",
+      "default": "buy"
+    },
+    {
+      "path": "/listings/2/image",
+      "type": "image",
+      "default": "townhouse.webp"
+    },
+    {
+      "path": "/listings/3/id",
+      "type": "text",
+      "default": "garden"
+    },
+    {
+      "path": "/listings/3/location",
+      "type": "text",
+      "default": "maadi"
+    },
+    {
+      "path": "/listings/3/type",
+      "type": "text",
+      "default": "apartment"
+    },
+    {
+      "path": "/listings/3/intent",
+      "type": "text",
+      "default": "rent"
+    },
+    {
+      "path": "/listings/3/image",
+      "type": "image",
+      "default": "interior.webp"
+    },
+    {
+      "path": "/listings/4/id",
+      "type": "text",
+      "default": "sunlit"
+    },
+    {
+      "path": "/listings/4/location",
+      "type": "text",
+      "default": "zayed"
+    },
+    {
+      "path": "/listings/4/type",
+      "type": "text",
+      "default": "villa"
+    },
+    {
+      "path": "/listings/4/intent",
+      "type": "text",
+      "default": "rent"
+    },
+    {
+      "path": "/listings/4/image",
+      "type": "image",
+      "default": "garden.webp"
+    },
+    {
+      "path": "/listings/5/id",
+      "type": "text",
+      "default": "parkside"
+    },
+    {
+      "path": "/listings/5/location",
+      "type": "text",
+      "default": "newCairo"
+    },
+    {
+      "path": "/listings/5/type",
+      "type": "text",
+      "default": "apartment"
+    },
+    {
+      "path": "/listings/5/intent",
+      "type": "text",
+      "default": "buy"
+    },
+    {
+      "path": "/listings/5/image",
+      "type": "image",
+      "default": "apartment.webp"
+    }
+  ],
+  "sections": [
+    {
+      "id": "homes",
+      "enabled": true
+    },
+    {
+      "id": "neighborhoods",
+      "enabled": true
+    },
+    {
+      "id": "pathways",
+      "enabled": true
+    },
+    {
+      "id": "advisor",
+      "enabled": true
+    },
+    {
+      "id": "viewing",
+      "enabled": true
+    }
+  ],
+  "attribution": {
+    "type": "authored-demo",
+    "clientProject": false,
+    "author": "Islam Nashaat"
+  },
+  "mawqi": {
+    "status": "adapter-required",
+    "installed": false
+  },
+  "liveOrigin": "https://islamnashaat03.github.io/services-themes/demos/real-estate"
+}

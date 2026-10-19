@@ -1,0 +1,8 @@
+{
+  "provider": "OpenAI built-in Image Gen",
+  "fictional": true,
+  "file": "hero.webp",
+  "source": "exec-3412800b-094b-4c89-8a47-5a8ff36289ac.png",
+  "processing": "WebP quality 85; up to 1536px",
+  "use": "Fictional learners in a practical workshop, not real instructors or students of this business"
+}

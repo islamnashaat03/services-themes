@@ -11,7 +11,8 @@ locale content JSON, a versioned theme manifest, editable-content paths,
 section order and theme tokens. Future Mawqi import is a planned adapter;
 these themes are not registered in Mawqi yet. No platform code is changed.
 
-Custom subdomain destination requested from user; awaiting their preference.
-Until settled, prepare deployable static packages without changing live DNS.
+User requested independent GitHub hosting under islamnashaat.com subdomains.
+The second batch adds real-estate, construction-company and training-center.
+Deployment targets and secure fallback links are recorded in services-work.json.
 Contact and appointment forms demonstrate local interactions without sending
 data. Theme packages share no visitor state. All sample identities are fictional.

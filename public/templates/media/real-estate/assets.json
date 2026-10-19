@@ -1,0 +1,156 @@
+[
+  {
+    "file": "hero.webp",
+    "source": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=86",
+    "provider": "Unsplash",
+    "usage": "Illustrative stock photography for fictional homepage demo; not a real listing, client, or advisor",
+    "dimensions": [
+      1600,
+      1200
+    ],
+    "variants": [
+      {
+        "file": "hero-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "file": "hero-960.webp",
+        "width": 960,
+        "height": 720
+      }
+    ]
+  },
+  {
+    "file": "villa.webp",
+    "source": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=86",
+    "provider": "Unsplash",
+    "usage": "Illustrative stock photography for fictional homepage demo; not a real listing, client, or advisor",
+    "dimensions": [
+      1600,
+      1067
+    ],
+    "variants": [
+      {
+        "file": "villa-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "file": "villa-960.webp",
+        "width": 960,
+        "height": 640
+      }
+    ]
+  },
+  {
+    "file": "apartment.webp",
+    "source": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=86",
+    "provider": "Unsplash",
+    "usage": "Illustrative stock photography for fictional homepage demo; not a real listing, client, or advisor",
+    "dimensions": [
+      1600,
+      1067
+    ],
+    "variants": [
+      {
+        "file": "apartment-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "file": "apartment-960.webp",
+        "width": 960,
+        "height": 640
+      }
+    ]
+  },
+  {
+    "file": "townhouse.webp",
+    "source": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1600&q=86",
+    "provider": "Unsplash",
+    "usage": "Illustrative stock photography for fictional homepage demo; not a real listing, client, or advisor",
+    "dimensions": [
+      1600,
+      1067
+    ],
+    "variants": [
+      {
+        "file": "townhouse-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "file": "townhouse-960.webp",
+        "width": 960,
+        "height": 640
+      }
+    ]
+  },
+  {
+    "file": "garden.webp",
+    "source": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1600&q=86",
+    "provider": "Unsplash",
+    "usage": "Illustrative stock photography for fictional homepage demo; not a real listing, client, or advisor",
+    "dimensions": [
+      1550,
+      1300
+    ],
+    "variants": [
+      {
+        "file": "garden-640.webp",
+        "width": 640,
+        "height": 537
+      },
+      {
+        "file": "garden-960.webp",
+        "width": 960,
+        "height": 805
+      }
+    ]
+  },
+  {
+    "file": "interior.webp",
+    "source": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=86",
+    "provider": "Unsplash",
+    "usage": "Illustrative stock photography for fictional homepage demo; not a real listing, client, or advisor",
+    "dimensions": [
+      1600,
+      1088
+    ],
+    "variants": [
+      {
+        "file": "interior-640.webp",
+        "width": 640,
+        "height": 435
+      },
+      {
+        "file": "interior-960.webp",
+        "width": 960,
+        "height": 653
+      }
+    ]
+  },
+  {
+    "file": "advisor.webp",
+    "source": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=1600&q=86",
+    "provider": "Unsplash",
+    "usage": "Illustrative stock photography for fictional homepage demo; not a real listing, client, or advisor",
+    "dimensions": [
+      1033,
+      1300
+    ],
+    "variants": [
+      {
+        "file": "advisor-640.webp",
+        "width": 640,
+        "height": 805
+      },
+      {
+        "file": "advisor-960.webp",
+        "width": 960,
+        "height": 1208
+      }
+    ]
+  }
+]

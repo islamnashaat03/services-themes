@@ -1,0 +1,103 @@
+{
+  "brand": "Namaa",
+  "tagline": "Construction",
+  "nav": [
+    "Services",
+    "Our work",
+    "Our process"
+  ],
+  "cta": "Discuss your project",
+  "hero": {
+    "title": "Build your idea.\nConsider every detail.",
+    "text": "Residential and commercial construction and fit-outs, from the first plan to the final handover.",
+    "button": "Explore the work",
+    "alt": "Concept image of a modern stone and timber residence framed by olive trees"
+  },
+  "servicesTitle": "A clear scope of work.",
+  "services": [
+    {
+      "title": "Construction",
+      "text": "Coordinate new buildings and spaces around a clearly defined scope and plan."
+    },
+    {
+      "title": "Interior fit-outs",
+      "text": "Practical material, lighting and layout choices that support how a space is used."
+    },
+    {
+      "title": "Renovation",
+      "text": "Update existing spaces while preserving the elements that give them character."
+    }
+  ],
+  "itemsTitle": "Spaces imagined in detail.",
+  "filters": [
+    {
+      "id": "all",
+      "label": "All"
+    },
+    {
+      "id": "residential",
+      "label": "Residential"
+    },
+    {
+      "id": "commercial",
+      "label": "Commercial"
+    }
+  ],
+  "items": [
+    {
+      "id": "courtyard",
+      "title": "Courtyard House",
+      "category": "residential",
+      "meta": "Residential concept · Build and fit-out",
+      "text": "A home concept balancing a private courtyard with natural light. This is authored showcase work, not a delivered client project.",
+      "image": "hero.webp",
+      "outcomes": [
+        "An open layout around a central courtyard",
+        "Natural materials and maintainable details",
+        "Illustrative construction and fit-out scope"
+      ]
+    },
+    {
+      "id": "workspace",
+      "title": "The Workspace",
+      "category": "commercial",
+      "meta": "Commercial concept · Interior fit-out",
+      "text": "A fictional workplace balancing collaborative zones with quiet rooms. Photography and project scope are illustrative.",
+      "image": "workspace.webp",
+      "outcomes": [
+        "Flexible meeting and work zones",
+        "Coordinated lighting and circulation",
+        "Practical finishes for everyday use"
+      ]
+    }
+  ],
+  "details": "View details",
+  "interest": "Discuss a similar project",
+  "stepsTitle": "From the first plan to the final detail.",
+  "steps": [
+    {
+      "title": "Understand the brief",
+      "text": "Listen to the idea and establish how the space will be used."
+    },
+    {
+      "title": "Define the scope",
+      "text": "Organise requirements, materials and milestones before starting."
+    },
+    {
+      "title": "Plan the delivery",
+      "text": "Clarify reviews, handover and communication throughout the work."
+    }
+  ],
+  "faqTitle": "Project questions",
+  "faqs": [],
+  "contact": {
+    "title": "Tell us about your project.",
+    "text": "Interactive demo only. No information is sent and no actual quotation is issued.",
+    "name": "Name",
+    "email": "Email",
+    "choice": "Project type",
+    "message": "About the project",
+    "submit": "Prepare project request"
+  },
+  "footer": "Namaa Construction — a showcase designed and built by Islam Nashaat."
+}

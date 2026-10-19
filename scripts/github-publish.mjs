@@ -14,7 +14,10 @@ async function api(route,method='GET',body){
 }
 const user=await api('/user');
 if(user.login!=='islamnashaat03')throw Error('Unexpected GitHub account');
-const catalogue=JSON.parse(await readFile('dist/catalogue.json','utf8'));
+const allThemes=JSON.parse(await readFile('dist/catalogue.json','utf8'));
+const requested=process.argv.find(arg=>arg.startsWith('--themes='))?.slice(9).split(',');
+if(requested?.some(id=>!allThemes.some(theme=>theme.id===id)))throw Error('Unknown theme selected');
+const catalogue=requested?allThemes.filter(theme=>requested.includes(theme.id)):allThemes;
 const statePath='.deploy/github.json';
 await mkdir('.deploy',{recursive:true});
 let state;try{state=JSON.parse(await readFile(statePath,'utf8'));}catch{state={owner:user.login,repositories:{}};}
@@ -50,8 +53,8 @@ if(process.argv.includes('--https')){
 function textStatus(name,p){console.log(JSON.stringify({name,status:p.status,url:p.html_url,cname:p.cname,certificate:p.https_certificate,https:p.https_enforced}));}
 const source=await repo('services-themes');
 try{await readFile('.git/HEAD');}catch{git(root,'init','-b','main');git(root,'remote','add','origin',source.clone);}
-git(root,'add','.');
-if(git(root,'status','--porcelain'))git(root,'commit','-m','Build three reusable Arabic and English showcase themes');
+git(root,'add','.',':!design/github-source.png');
+if(git(root,'diff','--cached','--name-only'))git(root,'commit','-m','Add bilingual real estate, construction and training showcases');
 git(root,'push','-u','origin','main');console.log('SOURCE '+source.url);
 for(const theme of catalogue){
  const name='showcase-'+theme.id,remote=await repo(name),dir=path.join(root,'.deploy',name);
