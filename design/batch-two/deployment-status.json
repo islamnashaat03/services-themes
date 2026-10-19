@@ -1,0 +1,234 @@
+{
+  "hosting": "GitHub Pages",
+  "source": "https://github.com/islamnashaat03/services-themes",
+  "dnsTarget": "islamnashaat03.github.io",
+  "dnsBackup": "/home/esdfypbc/deploy-backups/20261019-themes-batch-two",
+  "checks": [
+    {
+      "id": "real-estate",
+      "domain": "estate.islamnashaat.com",
+      "checks": [
+        {
+          "mode": "custom",
+          "url": "https://estate.islamnashaat.com/",
+          "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+        },
+        {
+          "mode": "http",
+          "url": "http://estate.islamnashaat.com/",
+          "status": 200,
+          "hashMatch": true,
+          "server": "GitHub.com"
+        },
+        {
+          "mode": "fallback",
+          "url": "https://islamnashaat03.github.io/services-themes/demos/real-estate/",
+          "status": 200,
+          "hashMatch": true,
+          "server": "GitHub.com"
+        },
+        {
+          "mode": "custom",
+          "url": "https://estate.islamnashaat.com/ar/",
+          "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+        },
+        {
+          "mode": "http",
+          "url": "http://estate.islamnashaat.com/ar/",
+          "status": 200,
+          "hashMatch": true,
+          "server": "GitHub.com"
+        },
+        {
+          "mode": "fallback",
+          "url": "https://islamnashaat03.github.io/services-themes/demos/real-estate/ar/",
+          "status": 200,
+          "hashMatch": true,
+          "server": "GitHub.com"
+        },
+        {
+          "mode": "custom",
+          "url": "https://estate.islamnashaat.com/en/",
+          "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+        },
+        {
+          "mode": "http",
+          "url": "http://estate.islamnashaat.com/en/",
+          "status": 200,
+          "hashMatch": true,
+          "server": "GitHub.com"
+        },
+        {
+          "mode": "fallback",
+          "url": "https://islamnashaat03.github.io/services-themes/demos/real-estate/en/",
+          "status": 200,
+          "hashMatch": true,
+          "server": "GitHub.com"
+        }
+      ],
+      "pages": {
+        "status": "built",
+        "cname": "estate.islamnashaat.com",
+        "https": false
+      },
+      "build": [
+        {
+          "status": "in_progress",
+          "conclusion": null
+        }
+      ]
+    },
+    {
+      "id": "construction-company",
+      "domain": "construction.islamnashaat.com",
+      "checks": [
+        {
+          "mode": "custom",
+          "url": "https://construction.islamnashaat.com/",
+          "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+        },
+        {
+          "mode": "http",
+          "url": "http://construction.islamnashaat.com/",
+          "status": 200,
+          "hashMatch": true,
+          "server": "GitHub.com"
+        },
+        {
+          "mode": "fallback",
+          "url": "https://islamnashaat03.github.io/services-themes/demos/construction-company/",
+          "status": 200,
+          "hashMatch": true,
+          "server": "GitHub.com"
+        },
+        {
+          "mode": "custom",
+          "url": "https://construction.islamnashaat.com/ar/",
+          "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+        },
+        {
+          "mode": "http",
+          "url": "http://construction.islamnashaat.com/ar/",
+          "status": 200,
+          "hashMatch": true,
+          "server": "GitHub.com"
+        },
+        {
+          "mode": "fallback",
+          "url": "https://islamnashaat03.github.io/services-themes/demos/construction-company/ar/",
+          "status": 200,
+          "hashMatch": true,
+          "server": "GitHub.com"
+        },
+        {
+          "mode": "custom",
+          "url": "https://construction.islamnashaat.com/en/",
+          "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+        },
+        {
+          "mode": "http",
+          "url": "http://construction.islamnashaat.com/en/",
+          "status": 200,
+          "hashMatch": true,
+          "server": "GitHub.com"
+        },
+        {
+          "mode": "fallback",
+          "url": "https://islamnashaat03.github.io/services-themes/demos/construction-company/en/",
+          "status": 200,
+          "hashMatch": true,
+          "server": "GitHub.com"
+        }
+      ],
+      "pages": {
+        "status": "building",
+        "cname": "construction.islamnashaat.com",
+        "https": false
+      },
+      "build": [
+        {
+          "status": "queued",
+          "conclusion": null
+        }
+      ]
+    },
+    {
+      "id": "training-center",
+      "domain": "academy.islamnashaat.com",
+      "checks": [
+        {
+          "mode": "custom",
+          "url": "https://academy.islamnashaat.com/",
+          "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+        },
+        {
+          "mode": "http",
+          "url": "http://academy.islamnashaat.com/",
+          "status": 200,
+          "hashMatch": true,
+          "server": "GitHub.com"
+        },
+        {
+          "mode": "fallback",
+          "url": "https://islamnashaat03.github.io/services-themes/demos/training-center/",
+          "status": 200,
+          "hashMatch": true,
+          "server": "GitHub.com"
+        },
+        {
+          "mode": "custom",
+          "url": "https://academy.islamnashaat.com/ar/",
+          "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+        },
+        {
+          "mode": "http",
+          "url": "http://academy.islamnashaat.com/ar/",
+          "status": 200,
+          "hashMatch": true,
+          "server": "GitHub.com"
+        },
+        {
+          "mode": "fallback",
+          "url": "https://islamnashaat03.github.io/services-themes/demos/training-center/ar/",
+          "status": 200,
+          "hashMatch": true,
+          "server": "GitHub.com"
+        },
+        {
+          "mode": "custom",
+          "url": "https://academy.islamnashaat.com/en/",
+          "error": "ERR_TLS_CERT_ALTNAME_INVALID"
+        },
+        {
+          "mode": "http",
+          "url": "http://academy.islamnashaat.com/en/",
+          "status": 200,
+          "hashMatch": true,
+          "server": "GitHub.com"
+        },
+        {
+          "mode": "fallback",
+          "url": "https://islamnashaat03.github.io/services-themes/demos/training-center/en/",
+          "status": 200,
+          "hashMatch": true,
+          "server": "GitHub.com"
+        }
+      ],
+      "pages": {
+        "status": "built",
+        "cname": "academy.islamnashaat.com",
+        "https": false
+      },
+      "build": [
+        {
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ],
+  "customDomainHttps": "pending; certificate hostname validation not yet passing",
+  "secureFallbacksVerified": true,
+  "servicesGalleryUpdated": false,
+  "mawqiAdapterInstalled": false
+}

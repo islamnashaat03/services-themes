@@ -110,8 +110,8 @@
     "mobilePreview": "design/preview-real-estate-mobile.png",
     "intendedOrigin": "https://estate.islamnashaat.com",
     "previewUrl": "https://islamnashaat03.github.io/services-themes/demos/real-estate/",
-    "liveUrl": null,
-    "publishStatus": "awaiting-publication",
+    "liveUrl": "http://estate.islamnashaat.com/",
+    "publishStatus": "dns-connected-https-pending",
     "languages": [
       "ar",
       "en"
@@ -119,7 +119,9 @@
     "defaultLanguage": "ar",
     "templateVersion": "1.0.0",
     "package": "releases/real-estate.zip",
-    "mawqiStatus": "adapter-required"
+    "mawqiStatus": "adapter-required",
+    "securePreviewVerified": true,
+    "customDomainHttpsVerified": false
   },
   {
     "id": "construction-company",
@@ -141,8 +143,8 @@
     "mobilePreview": "design/preview-construction-company-mobile.png",
     "intendedOrigin": "https://construction.islamnashaat.com",
     "previewUrl": "https://islamnashaat03.github.io/services-themes/demos/construction-company/",
-    "liveUrl": null,
-    "publishStatus": "awaiting-publication",
+    "liveUrl": "http://construction.islamnashaat.com/",
+    "publishStatus": "dns-connected-https-pending",
     "languages": [
       "ar",
       "en"
@@ -150,7 +152,9 @@
     "defaultLanguage": "ar",
     "templateVersion": "1.0.0",
     "package": "releases/construction-company.zip",
-    "mawqiStatus": "adapter-required"
+    "mawqiStatus": "adapter-required",
+    "securePreviewVerified": true,
+    "customDomainHttpsVerified": false
   },
   {
     "id": "training-center",
@@ -172,8 +176,8 @@
     "mobilePreview": "design/preview-training-center-mobile.png",
     "intendedOrigin": "https://academy.islamnashaat.com",
     "previewUrl": "https://islamnashaat03.github.io/services-themes/demos/training-center/",
-    "liveUrl": null,
-    "publishStatus": "awaiting-publication",
+    "liveUrl": "http://academy.islamnashaat.com/",
+    "publishStatus": "dns-connected-https-pending",
     "languages": [
       "ar",
       "en"
@@ -181,6 +185,8 @@
     "defaultLanguage": "ar",
     "templateVersion": "1.0.0",
     "package": "releases/training-center.zip",
-    "mawqiStatus": "adapter-required"
+    "mawqiStatus": "adapter-required",
+    "securePreviewVerified": true,
+    "customDomainHttpsVerified": false
   }
 ]

@@ -53,3 +53,12 @@ responsive layout checked at 390. No extra eyebrow, badge or hero copy added.
 
 Payments, real submissions, WordPress conversion, and Mawqi import remain
 outside these static interactive showcases.
+
+Publication: second-batch source and three standalone repositories uploaded.
+All nine custom-domain HTTP HTML routes return GitHub.com and match release
+hashes. All nine HTTPS fallback routes match the corrected preview exports.
+Fixed cross-theme fallback language/media links by running each Vite export
+in a fresh process; each export now checks its language and asset base paths.
+Public DNS points six new bare/www names at islamnashaat03.github.io.
+Custom-domain HTTPS is not verified: GitHub certificates are still pending.
+Use the secure fallback URLs for sharing until hostname validation passes.
