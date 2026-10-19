@@ -56,6 +56,7 @@ try{await readFile('.git/HEAD');}catch{git(root,'init','-b','main');git(root,'re
 git(root,'add','.',':!design/github-source.png');
 if(git(root,'diff','--cached','--name-only'))git(root,'commit','-m','Add bilingual real estate, construction and training showcases');
 git(root,'push','-u','origin','main');console.log('SOURCE '+source.url);
+if(process.argv.includes('--source-only'))process.exit(0);
 for(const theme of catalogue){
  const name='showcase-'+theme.id,remote=await repo(name),dir=path.join(root,'.deploy',name);
  await mkdir(dir,{recursive:true});await cp(path.join(root,'dist',theme.id),dir,{recursive:true});
