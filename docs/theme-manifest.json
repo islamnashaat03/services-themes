@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 1,
+  "templateId": "medical-clinic",
+  "templateVersion": "1.0.0",
+  "defaultLocale": "ar",
+  "locales": [
+    "ar",
+    "en"
+  ],
+  "kind": "showcase",
+  "name": {
+    "ar": "كليرويل — عيادة طبية",
+    "en": "Clearwell Clinic"
+  },
+  "industry": {
+    "ar": "عيادة طبية",
+    "en": "Medical clinic"
+  },
+  "capabilities": [
+    "service-selection",
+    "local-appointment-request",
+    "faqs"
+  ],
+  "futureModules": [
+    "booking",
+    "payments"
+  ],
+  "palette": {
+    "primary": "#086b66",
+    "background": "#ffffff",
+    "accent": "#08736d"
+  },
+  "contentFiles": {
+    "ar": "theme-content/ar.json",
+    "en": "theme-content/en.json"
+  },
+  "editableFields": [
+    {
+      "path": "/brand",
+      "type": "text",
+      "default": "عيادة كليرويل"
+    },
+    {
+      "path": "/tagline",
+      "type": "text",
+      "default": "رعاية أولية لكل يوم"
+    },
+    {
+      "path": "/nav/0",
+      "type": "text",
+      "default": "خدماتنا"
+    },
+    {
+      "path": "/nav/1",
+      "type": "text",
+      "default": "زيارتك"
+    },
+    {
+      "path": "/nav/2",
+      "type": "text",
+      "default": "فريقنا"
+    },
+    {
+      "path": "/nav/3",
+      "type": "text",
+      "default": "موقعنا"
+    },
+    {
+      "path": "/menu",
+      "type": "text",
+      "default": "فتح قائمة التصفح"
+    },
+    {
+      "path": "/close",
+      "type": "text",
+      "default": "إغلاق قائمة التصفح"
+    },
+    {
+      "path": "/cta",
+      "type": "text",
+      "default": "طلب موعد"
+    },
+    {
+      "path": "/hero/title",
+      "type": "text",
+      "default": "رعاية تناسب تفاصيل يومك."
+    },
+    {
+      "path": "/hero/text",
+      "type": "text",
+      "default": "رعاية أولية للعائلات والبالغين، بمواعيد مرنة وفريق يرحب بك ودعم عملي لصحتك اليومية."
+    },
+    {
+      "path": "/hero/alt",
+      "type": "text",
+      "default": "استقبال عيادة مريح تتحدث فيه موظفة الاستقبال مع إحدى المراجعات"
+    },
+    {
+      "path": "/form/title",
+      "type": "text",
+      "default": "طلب موعد"
+    },
+    {
+      "path": "/form/service",
+      "type": "text",
+      "default": "الخدمة"
+    },
+    {
+      "path": "/form/serviceHint",
+      "type": "text",
+      "default": "اختر الخدمة"
+    },
+    {
+      "path": "/form/day",
+      "type": "text",
+      "default": "اليوم المفضل"
+    },
+    {
+      "path": "/form/name",
+      "type": "text",
+      "default": "الاسم"
+    },
+    {
+      "path": "/form/email",
+      "type": "text",
+      "default": "البريد الإلكتروني"
+    },
+    {
+      "path": "/form/nameHint",
+      "type": "text",
+      "default": "اسمك"
+    },
+    {
+      "path": "/form/emailHint",
+      "type": "text",
+      "default": "بريدك الإلكتروني"
+    },
+    {
+      "path": "/form/submit",
+      "type": "text",
+      "default": "تجهيز طلب الموعد"
+    },
+    {
+      "path": "/form/note",
+      "type": "text",
+      "default": "عرض تفاعلي تجريبي. لا تكتب معلومات طبية. لن يُرسل أي شيء."
+    },
+    {
+      "path": "/form/success",
+      "type": "text",
+      "default": "تم تجهيز طلب الموعد التجريبي؛ لم تُرسل أي معلومات ولم يُحجز أي موعد."
+    },
+    {
+      "path": "/form/dateError",
+      "type": "text",
+      "default": "اختر اليوم أو تاريخًا قادمًا."
+    },
+    {
+      "path": "/form/type",
+      "type": "text",
+      "default": "نوع الموعد"
+    },
+    {
+      "path": "/form/change",
+      "type": "text",
+      "default": "تغيير نوع الموعد"
+    },
+    {
+      "path": "/form/summary",
+      "type": "text",
+      "default": "الموعد المختار"
+    },
+    {
+      "path": "/form/reset",
+      "type": "text",
+      "default": "تجهيز طلب آخر"
+    },
+    {
+      "path": "/services/title",
+      "type": "text",
+      "default": "رعاية يومية لغدٍ أكثر صحة."
+    },
+    {
+      "path": "/services/text",
+      "type": "text",
+      "default": "من الفحوصات الدورية إلى المتابعة المستمرة، استكشف رعاية تتمحور حولك وحول عائلتك."
+    },
+    {
+      "path": "/services/select",
+      "type": "text",
+      "default": "اختيار هذه الخدمة"
+    },
+    {
+      "path": "/services/items/0/id",
+      "type": "text",
+      "default": "general"
+    },
+    {
+      "path": "/services/items/0/title",
+      "type": "text",
+      "default": "الرعاية الصحية العامة"
+    },
+    {
+      "path": "/services/items/0/text",
+      "type": "text",
+      "default": "فحوصات ومشكلات صحية شائعة ودعم للصحة اليومية."
+    },
+    {
+      "path": "/services/items/0/icon",
+      "type": "text",
+      "default": "stethoscope"
+    },
+    {
+      "path": "/services/items/1/id",
+      "type": "text",
+      "default": "men"
+    },
+    {
+      "path": "/services/items/1/title",
+      "type": "text",
+      "default": "صحة الرجل"
+    },
+    {
+      "path": "/services/items/1/text",
+      "type": "text",
+      "default": "مساحة لمناقشة أسئلة الصحة والفحوصات والعافية."
+    },
+    {
+      "path": "/services/items/1/icon",
+      "type": "text",
+      "default": "person"
+    },
+    {
+      "path": "/services/items/2/id",
+      "type": "text",
+      "default": "preventive"
+    },
+    {
+      "path": "/services/items/2/title",
+      "type": "text",
+      "default": "الرعاية الوقائية"
+    },
+    {
+      "path": "/services/items/2/text",
+      "type": "text",
+      "default": "حوارات حول الفحص المبكر والتطعيمات والعادات الصحية."
+    },
+    {
+      "path": "/services/items/2/icon",
+      "type": "text",
+      "default": "shield"
+    },
+    {
+      "path": "/services/items/3/id",
+      "type": "text",
+      "default": "women"
+    },
+    {
+      "path": "/services/items/3/title",
+      "type": "text",
+      "default": "صحة المرأة"
+    },
+    {
+      "path": "/services/items/3/text",
+      "type": "text",
+      "default": "رعاية وقائية ودعم خلال مراحل الحياة المختلفة."
+    },
+    {
+      "path": "/services/items/3/icon",
+      "type": "text",
+      "default": "person"
+    },
+    {
+      "path": "/services/items/4/id",
+      "type": "text",
+      "default": "family"
+    },
+    {
+      "path": "/services/items/4/title",
+      "type": "text",
+      "default": "رعاية الأطفال والأسرة"
+    },
+    {
+      "path": "/services/items/4/text",
+      "type": "text",
+      "default": "مكان يرحب بالاحتياجات الصحية لكل أفراد عائلتك."
+    },
+    {
+      "path": "/services/items/4/icon",
+      "type": "text",
+      "default": "family"
+    },
+    {
+      "path": "/services/items/5/id",
+      "type": "text",
+      "default": "ongoing"
+    },
+    {
+      "path": "/services/items/5/title",
+      "type": "text",
+      "default": "متابعة الحالات المستمرة"
+    },
+    {
+      "path": "/services/items/5/text",
+      "type": "text",
+      "default": "حوارات عملية حول تنظيم الرعاية والمتابعة المستمرة."
+    },
+    {
+      "path": "/services/items/5/icon",
+      "type": "text",
+      "default": "heart"
+    },
+    {
+      "path": "/types/title",
+      "type": "text",
+      "default": "اختر الموعد المناسب لك."
+    },
+    {
+      "path": "/types/text",
+      "type": "text",
+      "default": "لست متأكدًا من النوع المناسب؟ إليك دليلًا مبسطًا للمواعيد التوضيحية في هذا النموذج."
+    },
+    {
+      "path": "/types/location",
+      "type": "text",
+      "default": "الصيغة"
+    },
+    {
+      "path": "/types/selected",
+      "type": "text",
+      "default": "تم الاختيار"
+    },
+    {
+      "path": "/types/items/0/id",
+      "type": "text",
+      "default": "standard"
+    },
+    {
+      "path": "/types/items/0/title",
+      "type": "text",
+      "default": "موعد اعتيادي"
+    },
+    {
+      "path": "/types/items/0/text",
+      "type": "text",
+      "default": "لمناقشة موضوع صحي واحد أو فحص دوري أو حوار أول."
+    },
+    {
+      "path": "/types/items/0/duration",
+      "type": "text",
+      "default": "١٥–٢٠ دقيقة"
+    },
+    {
+      "path": "/types/items/0/location",
+      "type": "text",
+      "default": "داخل العيادة"
+    },
+    {
+      "path": "/types/items/0/cta",
+      "type": "text",
+      "default": "اختيار الاعتيادي"
+    },
+    {
+      "path": "/types/items/0/icon",
+      "type": "text",
+      "default": "calendar"
+    },
+    {
+      "path": "/types/items/1/id",
+      "type": "text",
+      "default": "longer"
+    },
+    {
+      "path": "/types/items/1/title",
+      "type": "text",
+      "default": "موعد مطوّل"
+    },
+    {
+      "path": "/types/items/1/text",
+      "type": "text",
+      "default": "وقت إضافي لمناقشة عدة أسئلة أو التخطيط للمتابعة."
+    },
+    {
+      "path": "/types/items/1/duration",
+      "type": "text",
+      "default": "٣٠ دقيقة"
+    },
+    {
+      "path": "/types/items/1/location",
+      "type": "text",
+      "default": "داخل العيادة"
+    },
+    {
+      "path": "/types/items/1/cta",
+      "type": "text",
+      "default": "اختيار المطوّل"
+    },
+    {
+      "path": "/types/items/1/icon",
+      "type": "text",
+      "default": "clock"
+    },
+    {
+      "path": "/types/items/2/id",
+      "type": "text",
+      "default": "phone"
+    },
+    {
+      "path": "/types/items/2/title",
+      "type": "text",
+      "default": "استشارة هاتفية"
+    },
+    {
+      "path": "/types/items/2/text",
+      "type": "text",
+      "default": "صيغة توضيحية لسؤال بسيط أو حوار متابعة."
+    },
+    {
+      "path": "/types/items/2/duration",
+      "type": "text",
+      "default": "١٠–١٥ دقيقة"
+    },
+    {
+      "path": "/types/items/2/location",
+      "type": "text",
+      "default": "عبر الهاتف"
+    },
+    {
+      "path": "/types/items/2/cta",
+      "type": "text",
+      "default": "اختيار الهاتفي"
+    },
+    {
+      "path": "/types/items/2/icon",
+      "type": "text",
+      "default": "phone"
+    },
+    {
+      "path": "/people/title",
+      "type": "text",
+      "default": "فريق يضع الإنسان أولًا."
+    },
+    {
+      "path": "/people/text",
+      "type": "text",
+      "default": "حوار هادئ ووقت للاستماع وخطوات عملية. تعرّف إلى الفريق التوضيحي لهذا النموذج."
+    },
+    {
+      "path": "/people/note",
+      "type": "text",
+      "default": "ملفات خيالية موضّحة بصور مرخّصة."
+    },
+    {
+      "path": "/people/items/0/name",
+      "type": "text",
+      "default": "آنا ويلز"
+    },
+    {
+      "path": "/people/items/0/role",
+      "type": "text",
+      "default": "الرعاية العامة والوقائية"
+    },
+    {
+      "path": "/people/items/0/image",
+      "type": "image",
+      "default": "doctor-anna.webp"
+    },
+    {
+      "path": "/people/items/0/caption",
+      "type": "text",
+      "default": "نهج هادئ وداعم للرعاية اليومية."
+    },
+    {
+      "path": "/people/items/1/name",
+      "type": "text",
+      "default": "عمر ريد"
+    },
+    {
+      "path": "/people/items/1/role",
+      "type": "text",
+      "default": "رعاية الأسرة والمتابعة"
+    },
+    {
+      "path": "/people/items/1/image",
+      "type": "image",
+      "default": "doctor-omar.webp"
+    },
+    {
+      "path": "/people/items/1/caption",
+      "type": "text",
+      "default": "للاستماع والتوضيح والتخطيط لخطوتك التالية."
+    },
+    {
+      "path": "/visit/title",
+      "type": "text",
+      "default": "ماذا تتوقع خلال زيارتك؟"
+    },
+    {
+      "path": "/visit/text",
+      "type": "text",
+      "default": "تجربة بسيطة ومدروسة، من الترحيب الأول إلى الخطوة التالية."
+    },
+    {
+      "path": "/visit/steps/0/title",
+      "type": "text",
+      "default": "تسجيل الوصول"
+    },
+    {
+      "path": "/visit/steps/0/text",
+      "type": "text",
+      "default": "أبلغ فريق الاستقبال بوصولك."
+    },
+    {
+      "path": "/visit/steps/0/icon",
+      "type": "text",
+      "default": "clipboard"
+    },
+    {
+      "path": "/visit/steps/1/title",
+      "type": "text",
+      "default": "لقاء المختص"
+    },
+    {
+      "path": "/visit/steps/1/text",
+      "type": "text",
+      "default": "ناقش أسئلتك في أجواء مريحة."
+    },
+    {
+      "path": "/visit/steps/1/icon",
+      "type": "text",
+      "default": "person"
+    },
+    {
+      "path": "/visit/steps/2/title",
+      "type": "text",
+      "default": "الاتفاق على خطة"
+    },
+    {
+      "path": "/visit/steps/2/text",
+      "type": "text",
+      "default": "تعرّف إلى الخطوات التالية والمعلومات التي تحتاجها."
+    },
+    {
+      "path": "/visit/steps/2/icon",
+      "type": "text",
+      "default": "clipboard"
+    },
+    {
+      "path": "/visit/steps/3/title",
+      "type": "text",
+      "default": "الدعم المستمر"
+    },
+    {
+      "path": "/visit/steps/3/text",
+      "type": "text",
+      "default": "افهم متى وكيف ترتّب لرعاية المتابعة."
+    },
+    {
+      "path": "/visit/steps/3/icon",
+      "type": "text",
+      "default": "heart"
+    },
+    {
+      "path": "/space/title",
+      "type": "text",
+      "default": "مساحة ترحّب بك."
+    },
+    {
+      "path": "/space/text",
+      "type": "text",
+      "default": "مساحات مضيئة ومدروسة تمنحك فرصة للهدوء. تجمع هذه العيادة المتخيّلة بين استقبال مريح وغرف استشارة خاصة."
+    },
+    {
+      "path": "/space/more",
+      "type": "text",
+      "default": "خطط لزيارتك"
+    },
+    {
+      "path": "/space/receptionAlt",
+      "type": "text",
+      "default": "استقبال مضيء بتفاصيل خشبية ونباتات ومقاعد بلون أخضر هادئ"
+    },
+    {
+      "path": "/space/roomAlt",
+      "type": "text",
+      "default": "غرفة استشارة مضيئة بها سرير فحص ومكتب"
+    },
+    {
+      "path": "/space/captions/0",
+      "type": "text",
+      "default": "ترحيب ودي من اللحظة الأولى"
+    },
+    {
+      "path": "/space/captions/1",
+      "type": "text",
+      "default": "مساحة لحوار هادئ"
+    },
+    {
+      "path": "/location/title",
+      "type": "text",
+      "default": "زرنا."
+    },
+    {
+      "path": "/location/text",
+      "type": "text",
+      "default": "مثال للمعلومات العملية التي يحتاجها المراجع قبل الزيارة."
+    },
+    {
+      "path": "/location/address",
+      "type": "text",
+      "default": "١٢٣ طريق العافية، ريفرفيو"
+    },
+    {
+      "path": "/location/addressNote",
+      "type": "text",
+      "default": "عنوان توضيحي، وليس عيادة فعلية"
+    },
+    {
+      "path": "/location/hours/0/day",
+      "type": "text",
+      "default": "الاثنين–الجمعة"
+    },
+    {
+      "path": "/location/hours/0/time",
+      "type": "text",
+      "default": "٨ صباحًا–٦ مساءً"
+    },
+    {
+      "path": "/location/hours/1/day",
+      "type": "text",
+      "default": "السبت"
+    },
+    {
+      "path": "/location/hours/1/time",
+      "type": "text",
+      "default": "٨ صباحًا–١٢ ظهرًا"
+    },
+    {
+      "path": "/location/hours/2/day",
+      "type": "text",
+      "default": "الأحد"
+    },
+    {
+      "path": "/location/hours/2/time",
+      "type": "text",
+      "default": "مغلق"
+    },
+    {
+      "path": "/location/hoursNote",
+      "type": "text",
+      "default": "ساعات عمل توضيحية"
+    },
+    {
+      "path": "/location/access/0",
+      "type": "text",
+      "default": "مدخل دون درجات في هذا التصميم النموذجي"
+    },
+    {
+      "path": "/location/access/1",
+      "type": "text",
+      "default": "مساحة لمعلومات الوصول والتنقل"
+    },
+    {
+      "path": "/location/mapLabel",
+      "type": "text",
+      "default": "رسم تخطيطي لموقع توضيحي"
+    },
+    {
+      "path": "/location/mapClinic",
+      "type": "text",
+      "default": "العيادة التجريبية"
+    },
+    {
+      "path": "/location/mapPark",
+      "type": "text",
+      "default": "حديقة النهر"
+    },
+    {
+      "path": "/location/mapRoad",
+      "type": "text",
+      "default": "طريق العافية"
+    },
+    {
+      "path": "/location/mapRiver",
+      "type": "text",
+      "default": "ريفرفيو"
+    },
+    {
+      "path": "/location/mapNote",
+      "type": "text",
+      "default": "رسم توضيحي للمنطقة، وليس للملاحة."
+    },
+    {
+      "path": "/faq/title",
+      "type": "text",
+      "default": "أسئلة شائعة."
+    },
+    {
+      "path": "/faq/text",
+      "type": "text",
+      "default": "إجابات سريعة حول المواعيد والاستعداد للزيارة وهذا النموذج."
+    },
+    {
+      "path": "/faq/items/0/title",
+      "type": "text",
+      "default": "كيف أطلب موعدًا؟"
+    },
+    {
+      "path": "/faq/items/0/content",
+      "type": "text",
+      "default": "اختر خدمة ونوع موعد ثم جرّب النموذج أعلى الصفحة. سيُجهَّز طلب تجريبي محليًا؛ لن تُرسل أي معلومات ولن يُحجز موعد فعلي."
+    },
+    {
+      "path": "/faq/items/1/title",
+      "type": "text",
+      "default": "ماذا أحضر معي إلى الموعد؟"
+    },
+    {
+      "path": "/faq/items/1/content",
+      "type": "text",
+      "default": "توضح العيادة الفعلية ما تحتاج إلى إحضاره عند تأكيد الموعد. لا تقدم هذه الصفحة إرشادات سريرية أو نصائح طبية شخصية."
+    },
+    {
+      "path": "/faq/items/2/title",
+      "type": "text",
+      "default": "هل يمكن اختيار موعد للأسرة؟"
+    },
+    {
+      "path": "/faq/items/2/content",
+      "type": "text",
+      "default": "اختر «رعاية الأطفال والأسرة» في حقل الخدمة لتجربة طلب يركز على الأسرة. تؤكد العيادة الفعلية نوع الموعد المناسب ومتطلباته."
+    },
+    {
+      "path": "/faq/items/3/title",
+      "type": "text",
+      "default": "هل تتوفر المواعيد الهاتفية؟"
+    },
+    {
+      "path": "/faq/items/3/content",
+      "type": "text",
+      "default": "أُدرجت الصيغة الهاتفية لتوضيح اختيار نوع الموعد، ولا تدل على توفر خدمة فعلية أو ملاءمة طبية."
+    },
+    {
+      "path": "/faq/items/4/title",
+      "type": "text",
+      "default": "هل يمكن تعديل الطلب أو إلغاؤه؟"
+    },
+    {
+      "path": "/faq/items/4/content",
+      "type": "text",
+      "default": "لا يوجد حجز فعلي في هذا العرض. يمكنك تغيير الخدمة المختارة أو تجهيز طلب نموذجي آخر. لا تُحفظ المعلومات بعد مغادرة الصفحة."
+    },
+    {
+      "path": "/closeTitle",
+      "type": "text",
+      "default": "رعاية لليوم. وغدٌ أكثر صحة."
+    },
+    {
+      "path": "/closeText",
+      "type": "text",
+      "default": "معك في الحوارات التي تساعدك على التقدم."
+    },
+    {
+      "path": "/footer",
+      "type": "text",
+      "default": "عيادة خيالية. نموذج للصفحة الرئيسية. ليس نصيحة طبية."
+    }
+  ],
+  "sections": [
+    {
+      "id": "clinic-hero",
+      "enabled": true
+    },
+    {
+      "id": "clinic-services",
+      "enabled": true
+    },
+    {
+      "id": "clinic-appointments",
+      "enabled": true
+    },
+    {
+      "id": "clinic-people",
+      "enabled": true
+    },
+    {
+      "id": "clinic-visit",
+      "enabled": true
+    },
+    {
+      "id": "clinic-spaces",
+      "enabled": true
+    },
+    {
+      "id": "clinic-location",
+      "enabled": true
+    },
+    {
+      "id": "clinic-faq",
+      "enabled": true
+    }
+  ],
+  "attribution": {
+    "type": "authored-demo",
+    "clientProject": false,
+    "author": "Islam Nashaat"
+  },
+  "mawqi": {
+    "status": "adapter-required",
+    "installed": false
+  },
+  "liveOrigin": "https://islamnashaat03.github.io/services-themes"
+}

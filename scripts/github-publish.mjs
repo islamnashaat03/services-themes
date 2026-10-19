@@ -31,6 +31,14 @@ if(process.argv.includes('--status')){
  for(const theme of catalogue){const name='showcase-'+theme.id;const p=await api(`/repos/${user.login}/${name}/pages`);textStatus(name,p);const health=await api(`/repos/${user.login}/${name}/pages/health`);const runs=await api(`/repos/${user.login}/${name}/actions/runs?per_page=1`);console.log(JSON.stringify({name,dnsHealth:health,build:runs.workflow_runs?.map(r=>({status:r.status,conclusion:r.conclusion,url:r.html_url}))}));}
  process.exit(0);
 }
+if(process.argv.includes('--clinic-preview')){
+ const route=`/repos/${user.login}/services-themes/pages`;
+ let info;try{info=await api(route);}catch(e){if(!String(e).includes('404'))throw e;info=await api(route,'POST',{source:{branch:'main',path:'/docs'}});}
+ if(info.cname)throw Error('Source repository already has an unexpected custom domain');
+ await api(route,'PUT',{source:{branch:'main',path:'/docs'},https_enforced:true});
+ textStatus('clinic-secure-preview',await api(route));
+ process.exit(0);
+}
 if(process.argv.includes('--recheck-domains')){
  for(const theme of catalogue){const route=`/repos/${user.login}/showcase-${theme.id}/pages`;await api(route,'PUT',{cname:null});await api(route,'PUT',{cname:new URL(theme.url).hostname});console.log('Rechecked '+theme.url);}
  process.exit(0);

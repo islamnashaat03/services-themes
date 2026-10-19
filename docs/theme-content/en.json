@@ -1,0 +1,230 @@
+{
+  "brand": "Clearwell Clinic",
+  "tagline": "Primary care for every day",
+  "nav": [
+    "Our services",
+    "Your visit",
+    "Our people",
+    "Find us"
+  ],
+  "menu": "Open navigation",
+  "close": "Close navigation",
+  "cta": "Request an appointment",
+  "hero": {
+    "title": "Care that fits into your day.",
+    "text": "Primary care for families and working adults. Convenient appointments, a welcoming team and practical support for your everyday health.",
+    "alt": "A welcoming clinic reception with a receptionist speaking to a patient"
+  },
+  "form": {
+    "title": "Request an appointment",
+    "service": "Service",
+    "serviceHint": "Select a service",
+    "day": "Preferred day",
+    "name": "Name",
+    "email": "Email",
+    "nameHint": "Your name",
+    "emailHint": "Your email",
+    "submit": "Prepare appointment request",
+    "note": "Interactive demo. Do not enter medical information. Nothing is sent.",
+    "success": "Demo appointment request prepared; nothing was sent. No appointment has been booked.",
+    "dateError": "Choose today or a future date.",
+    "type": "Appointment type",
+    "change": "Change appointment type",
+    "summary": "Selected appointment",
+    "reset": "Prepare another request"
+  },
+  "services": {
+    "title": "Everyday care for a healthier tomorrow.",
+    "text": "From routine check-ups to ongoing support, explore care designed around you and your family.",
+    "select": "Choose this service",
+    "items": [
+      {
+        "id": "general",
+        "title": "General health care",
+        "text": "Check-ups, common illnesses and support for everyday health.",
+        "icon": "stethoscope"
+      },
+      {
+        "id": "men",
+        "title": "Men’s health",
+        "text": "A space to discuss health questions, checks and wellbeing.",
+        "icon": "person"
+      },
+      {
+        "id": "preventive",
+        "title": "Preventive care",
+        "text": "Conversations about screening, vaccinations and healthy habits.",
+        "icon": "shield"
+      },
+      {
+        "id": "women",
+        "title": "Women’s health",
+        "text": "Preventive care and support through different stages of life.",
+        "icon": "person"
+      },
+      {
+        "id": "family",
+        "title": "Children and family care",
+        "text": "A welcoming place for the health needs of your whole family.",
+        "icon": "family"
+      },
+      {
+        "id": "ongoing",
+        "title": "Ongoing condition support",
+        "text": "Practical conversations about managing your ongoing care.",
+        "icon": "heart"
+      }
+    ]
+  },
+  "types": {
+    "title": "Choosing the right appointment.",
+    "text": "Not sure which format to choose? Here is a simple guide to the example appointments in this demo.",
+    "location": "Format",
+    "selected": "Selected",
+    "items": [
+      {
+        "id": "standard",
+        "title": "Standard appointment",
+        "text": "For a single health concern, a routine check-up or an initial conversation.",
+        "duration": "15–20 minutes",
+        "location": "In person at the clinic",
+        "cta": "Choose standard",
+        "icon": "calendar"
+      },
+      {
+        "id": "longer",
+        "title": "Longer appointment",
+        "text": "More time to talk through several questions or plan ongoing support.",
+        "duration": "30 minutes",
+        "location": "In person at the clinic",
+        "cta": "Choose longer",
+        "icon": "clock"
+      },
+      {
+        "id": "phone",
+        "title": "Phone consultation",
+        "text": "An example format for a simple question or a follow-up conversation.",
+        "duration": "10–15 minutes",
+        "location": "By phone",
+        "cta": "Choose phone",
+        "icon": "phone"
+      }
+    ]
+  },
+  "people": {
+    "title": "A team that puts people first.",
+    "text": "A calm conversation. Time to listen. Practical next steps. Meet the illustrative team behind this demo clinic.",
+    "note": "Fictional profiles, illustrated with stock photography.",
+    "items": [
+      {
+        "name": "Anna Wells",
+        "role": "General and preventive care",
+        "image": "doctor-anna.webp",
+        "caption": "A calm and supportive approach to everyday care."
+      },
+      {
+        "name": "Omar Reid",
+        "role": "Family and ongoing care",
+        "image": "doctor-omar.webp",
+        "caption": "Here to listen, explain and help you plan your next step."
+      }
+    ]
+  },
+  "visit": {
+    "title": "What to expect at your visit.",
+    "text": "A simple, considered experience, from your first hello to the next step.",
+    "steps": [
+      {
+        "title": "Check in",
+        "text": "Let our reception team know you have arrived.",
+        "icon": "clipboard"
+      },
+      {
+        "title": "Meet your clinician",
+        "text": "Talk through your questions in a comfortable setting.",
+        "icon": "person"
+      },
+      {
+        "title": "Agree a plan",
+        "text": "Discuss the next steps and the information you need.",
+        "icon": "clipboard"
+      },
+      {
+        "title": "Ongoing support",
+        "text": "Understand when and how to arrange follow-up care.",
+        "icon": "heart"
+      }
+    ]
+  },
+  "space": {
+    "title": "A space that welcomes you.",
+    "text": "Bright, considered spaces with room to settle in. This imagined clinic brings together a calm reception and private consultation rooms.",
+    "more": "Plan your visit",
+    "receptionAlt": "Light-filled reception with oak finishes, plants and teal seating",
+    "roomAlt": "Bright consultation room with an examination couch and a desk",
+    "captions": [
+      "A friendly first hello",
+      "Room for a calm conversation"
+    ]
+  },
+  "location": {
+    "title": "Visit us.",
+    "text": "Explore an example of the practical information patients need before setting off.",
+    "address": "123 Wellness Road, Riverview",
+    "addressNote": "Illustrative address, not a real clinic",
+    "hours": [
+      {
+        "day": "Monday–Friday",
+        "time": "8:00 am–6:00 pm"
+      },
+      {
+        "day": "Saturday",
+        "time": "8:00 am–12:00 pm"
+      },
+      {
+        "day": "Sunday",
+        "time": "Closed"
+      }
+    ],
+    "hoursNote": "Sample opening hours",
+    "access": [
+      "Step-free entrance in this sample design",
+      "Space for accessibility and travel information"
+    ],
+    "mapLabel": "Illustrative location diagram",
+    "mapClinic": "Demo clinic",
+    "mapPark": "Riverside park",
+    "mapRoad": "Wellness Road",
+    "mapRiver": "Riverview",
+    "mapNote": "Illustrative area diagram. Not for navigation."
+  },
+  "faq": {
+    "title": "Frequently asked questions.",
+    "text": "Quick answers about appointments, preparation and this demonstration.",
+    "items": [
+      {
+        "title": "How do I request an appointment?",
+        "content": "Choose a service and an appointment type, then try the form at the top of this page. It prepares a demonstration request locally; nothing is sent and no real appointment is booked."
+      },
+      {
+        "title": "What should I bring to an appointment?",
+        "content": "A real clinic would explain what to bring when confirming your appointment. This sample page does not provide clinical instructions or personalised medical advice."
+      },
+      {
+        "title": "Can I choose a family appointment?",
+        "content": "Select “Children and family care” in the service field to see how a family-focused enquiry works. A real clinic would confirm the appropriate appointment and any requirements."
+      },
+      {
+        "title": "Are phone appointments available?",
+        "content": "The phone format is included to demonstrate appointment selection. It does not indicate real availability, clinical suitability or an actual service offering."
+      },
+      {
+        "title": "Can I change or cancel a request?",
+        "content": "There is no real booking in this demonstration. You can change the selected service or prepare another sample request. No information is stored after you leave the page."
+      }
+    ]
+  },
+  "closeTitle": "Care for today. A healthier tomorrow.",
+  "closeText": "Here for the conversations that help you move forward.",
+  "footer": "Fictional clinic. Homepage demo. Not medical advice."
+}

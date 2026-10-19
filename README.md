@@ -16,6 +16,14 @@ npm run preview
 
 ## النشر المستقل
 
+معاينة العيادة الاحتياطية عبر HTTPS:
+https://islamnashaat03.github.io/services-themes/
+
+تُبنى باستخدام `node scripts/build-clinic-preview.mjs` ويُنشر مجلد docs
+على GitHub Pages الخاص بمستودع المصدر. هذا الرابط مستقل عن شهادة
+clinic.islamnashaat.com التي ما زالت قيد الإصدار. صور الثيم وروابط اللغات
+والخطوط تتبع مسار المعاينة، مع إبقاء تصدير الصب دومينات على المسار الجذري.
+
 المصدر: https://github.com/islamnashaat03/services-themes
 
 النشر المعتمد GitHub Pages خارج الاستضافة المشتركة. مستودع المصدر واحد

@@ -5,9 +5,10 @@ export type Locale = 'en' | 'ar';
 export const LocaleContext = createContext<Locale>('en');
 export type PageProps = { locale: Locale };
 export const t = (locale: Locale, en: string, ar: string) => locale === 'ar' ? ar : en;
-export const media = (slug: string, file: string) => `/templates/media/${slug}/${file}`;
+export const sitePath = (path:string) => `${import.meta.env.BASE_URL}${path.replace(/^\//,'')}`;
+export const media = (slug: string, file: string) => sitePath(`templates/media/${slug}/${file}`);
 export const galleryUrl = (locale: Locale) => locale === 'ar' ? 'https://islamnashaat.com/ar/index.html' : 'https://islamnashaat.com/en.html';
-export const templateUrl = (locale: Locale, _slug: string, _preview = false) => locale === 'ar' ? '/ar/' : '/en/';
+export const templateUrl = (locale: Locale, _slug: string, _preview = false) => sitePath(`${locale}/`);
 export const servicesUrl = galleryUrl;
 export const quoteUrl = (locale: Locale, slug?: string, name?: string) => `${servicesUrl(locale)}?${new URLSearchParams({service: slug === 'fashion-store' ? 'woocommerce-store' : 'business-website', approach: slug ? 'template' : 'custom', ...(name ? {template: name} : {})})}#contact`;
 
@@ -36,7 +37,7 @@ export function Icon({name, size = 20, ...props}: {name: string; size?: number; 
 }
 
 export function LanguageSwitch({locale}:{locale:Locale}) {
- return <a className="theme-language-switch" href={locale==='ar'?'/en/':'/ar/'} hrefLang={locale==='ar'?'en':'ar'} lang={locale==='ar'?'en':'ar'} aria-label={locale==='ar'?'View this website in English':'عرض الموقع بالعربية'}><Icon name="globe" size={17}/>{locale==='ar'?'English':'العربية'}</a>;
+ return <a className="theme-language-switch" href={sitePath(locale==='ar'?'en/':'ar/')} hrefLang={locale==='ar'?'en':'ar'} lang={locale==='ar'?'en':'ar'} aria-label={locale==='ar'?'View this website in English':'عرض الموقع بالعربية'}><Icon name="globe" size={17}/>{locale==='ar'?'English':'العربية'}</a>;
 }
 
 export function Dialog({open, onClose, title, children}: {open: boolean; onClose: () => void; title: string; children: ReactNode}) {
